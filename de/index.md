@@ -6,7 +6,7 @@ layout: default
 <a href="/praxis-schwebsange/lb/">LU</a> | 🇩🇪 <b>DE</b> | <a href="/praxis-schwebsange/fr/">FR</a> | <a href="/praxis-schwebsange/en/">EN</a>
 </div>
 
-# Willkommen auf der Website der Praxis für Psychotherapie Schwebsange
+# Willkommen auf der Website der Praxis fir Psychotherapie Schwebsange
 
 Wir bieten **professionelle psychotherapeutische Begleitung** für alle betroffenen Personen durch akkreditierte Psychotherapeuten mit mehrjähriger Berufserfahrung.
 
