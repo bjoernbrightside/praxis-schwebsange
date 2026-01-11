@@ -38,5 +38,5 @@ D’Praxis ass am Rez-de-Chaussée an barrièrefräi zougänglech.
  
 D’Behandlung ass vun der CNS rembourséierbar.  
 
-Méi Infoe fannt Dir hei:
+Méi Infoe fannt Dir hei:  
 [Psychotherapie bei der CNS](https://cns.public.lu/de/assure/remboursements/prestations-remboursees/prestations-medicales/psychotherapie.html)
