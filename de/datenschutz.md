@@ -1,10 +1,10 @@
 ---
 layout: default
+lang: de
+title: Datenschutz
 ---
 
-<div class="language-bar">
-<a href="/praxis-schwebsange/lb/datenschutz.html">LU</a> | 🇩🇪 <b>DE</b> | <a href="/praxis-schwebsange/fr/datenschutz.html">FR</a> | <a href="/praxis-schwebsange/en/datenschutz.html">EN</a>
-</div>
+Sie haben jederzeit das Recht auf Auskunft, Berichtigung oder Löschung Ihrer personenbezogenen Daten.
 
 # Datenschutz
 
