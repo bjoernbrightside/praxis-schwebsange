@@ -2,6 +2,7 @@
 layout: default
 title: Mentions légales
 lang: fr
+permalink: /fr/impressum/
 ---
 
 <div class="language-bar">
