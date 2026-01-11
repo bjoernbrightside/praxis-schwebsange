@@ -1,8 +1,12 @@
 ---
 layout: default
-lang: de
 title: Impressum
+lang: de
 ---
+
+<div class="language-bar">
+<a href="/lu/impressum/">LU</a> | 🇩🇪 <b>DE</b> | <a href="/fr/impressum/">FR</a> | <a href="/en/impressum/">EN</a>
+</div>
 
 # Impressum
 
@@ -10,3 +14,5 @@ title: Impressum
 **Adresse:** 53, Route du Vin  
 L-5447 Schwebsange  
 **E-Mail:** bn@praxis-schwebsange.lu
+
+[Zurück zur Startseite](/de/)
