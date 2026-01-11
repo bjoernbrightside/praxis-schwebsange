@@ -2,6 +2,7 @@
 layout: default
 title: Confidentialité
 lang: fr
+permalink: /fr/datenschutz/
 ---
 
 <div class="language-bar">
