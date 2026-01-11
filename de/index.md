@@ -55,7 +55,7 @@ Für **Anfragen oder Terminvereinbarungen** bitten wir um Kontaktaufnahme per E-
 
 ## Adresse & Anfahrt
 
-**Praxis für Psychotherapie**  
+**Praxis fir Psychotherapie**  
 53, Route du Vin  
 L-5447 Schwebsange
 
