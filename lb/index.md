@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div style="text-align:right">
+<div class="language-bar">
 🇱🇺 <b>LU</b> | <a href="/praxis-schwebsange/de/">DE</a> | <a href="/praxis-schwebsange/fr/">FR</a> | <a href="/praxis-schwebsange/en/">EN</a>
 </div>
 
