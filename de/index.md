@@ -8,7 +8,7 @@ layout: default
 
 # Willkommen auf der Website der Praxis fir Psychotherapie Schwebsange
 
-Psychotherapie mit ministerieller Erlaubnis (autorisation d'exercer) der CNS
+Psychotherapie mit Zulassung von der CNS
 
 ---
 
@@ -36,7 +36,7 @@ Die Praxis befindet sich im Erdgeschoss und ist barrierefrei zugänglich.
 
 ## Kosten & Erstattung
 
-Die Behandlung ist von der CNS erstattungsfähig.  
+Die Behandlung ist von der CNS erstattbar.  
 
 Weitere Informationen finden Sie hier:  
 [Psychotherapie bei der CNS](https://cns.public.lu/de/assure/remboursements/prestations-remboursees/prestations-medicales/psychotherapie.html)
