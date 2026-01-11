@@ -5,26 +5,28 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
-
 <body>
+
+  <!-- Sprachleiste nur einmal oben -->
   <header>
     <div class="language-bar">
-      <a href="/lu/"><span class="flag">🇱🇺</span> LU</a> |
-      <a href="/de/"><span class="flag">🇩🇪</span> DE</a> |
-      <a href="/fr/"><span class="flag">🇫🇷</span> FR</a> |
-      <a href="/en/"><span class="flag">🇬🇧</span> EN</a>
+      🇱🇺 <a href="/lu/">LU</a> |
+      🇩🇪 <a href="/de/">DE</a> |
+      🇫🇷 <a href="/fr/">FR</a> |
+      🇬🇧 <a href="/en/">EN</a>
     </div>
-   <!-- <h1>{{ site.title }}</h1> -->
   </header>
 
+  <!-- Hauptinhalt -->
   <main>
     {{ content }}
   </main>
 
- <footer>
-  <a href="/{{ page.lang }}/impressum/">Impressum</a> |
-  <a href="/{{ page.lang }}/datenschutz/">Datenschutz</a>
-</footer>
+  <!-- Footer mit Impressum und Datenschutz in aktueller Sprache -->
+  <footer>
+    <a href="/{{ page.lang }}/impressum/">Impressum</a> |
+    <a href="/{{ page.lang }}/datenschutz/">Datenschutz</a>
+  </footer>
 
 </body>
 </html>
