@@ -11,10 +11,10 @@ Psychotherapy with authorization by the CNS
 
 ## Contact
 
-**Dr Djenna HUTMACHER**  
+**Dr. Djenna HUTMACHER**  
 dh@praxis-schwebsange.lu  
 
-**Dr Björn NICOLAY**  
+**Dr. Björn NICOLAY**  
 bn@praxis-schwebsange.lu
 
 Please contact us by e-mail. We will respond as soon as possible.
