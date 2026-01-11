@@ -6,60 +6,37 @@ layout: default
 <a href="/praxis-schwebsange/lb/">LU</a> | <a href="/praxis-schwebsange/de/">DE</a> | 🇫🇷 <b>FR</b> | <a href="/praxis-schwebsange/en/">EN</a>
 </div>
 
-# Bienvenue sur le site de la Praxis fir Psychotherapie Schwebsange
+# Bienvenue sur le site de la Praxis pour Psychothérapie Schwebsange
 
-Nous proposons un **accompagnement psychothérapeutique professionnel** pour toutes les personnes concernées par un besoin de suivi psychothérapeutique, assuré par des psychothérapeutes accrédités avec plusieurs années d’expérience.
-
----
-
-## Notre approche
-
-Nous utilisons une **approche intégrative en psychothérapie** : nos thérapeutes sont formés à différentes méthodes et adaptent le traitement à votre situation et à vos besoins. Des éléments de **thérapie comportementale cognitive, thérapie d’acceptation et d’engagement (ACT), thérapie des schémas** peuvent être combinés selon le besoin.
-
----
-
-## Nos thérapeutes
-
-### Dr Djenna HUTMACHER  
-- Doctorat en Psychologie  
-- Psychologue / Psychothérapeute  
-- Autorisation ministérielle d'exercer 
-- Langues : Luxembourgeois, Allemand, Français, Anglais  
-
-### Dr Björn NICOLAY  
-- Doctorat en Psychologie  
-- Psychologue / Psychothérapeute  
-- Autorisation ministérielle d'exercer 
-- Langues : Luxembourgeois, Allemand, Français, Anglais  
-
----
-
-## Coût et remboursement
-
-Le **remboursement** est possible via la **Caisse nationale de santé (CNS)** :  
-- Adultes : 70 %  
-- Enfants & adolescents : 100 %  
-
-[Psychothérapie à la CNS](https://cns.public.lu/fr/assure/remboursements/prestations-remboursees/prestations-medicales/psychotherapie.html)
+Psychothérapie avec autorisation d’exercer par la CNS
 
 ---
 
 ## Contact
 
-Pour toute **question ou demande de rendez-vous**, merci de nous contacter par e-mail. Nous répondrons dans les plus brefs délais.
+**Dr Djenna HUTMACHER**  
+dh@praxis-schwebsange.lu  
 
-**Dr. Djenna HUTMACHER** – dh@praxis-schwebsange.lu  
-**Dr. Björn NICOLAY** – bn@praxis-schwebsange.lu
+**Dr Björn NICOLAY**  
+bn@praxis-schwebsange.lu
+
+Merci de nous contacter par e-mail. Nous répondrons dans les plus brefs délais.
 
 ---
 
 ## Adresse & Accès
 
-**Praxis fir Psychotherapie**  
+**Praxis pour Psychothérapie**  
 53, Route du Vin  
 L-5447 Schwebsange
 
-Notre cabinet est situé au **rez-de-chaussée** et offre un **accès pour personnes à mobilité réduite**. L’entrée se fait par la porte principale à droite du restaurant.  
-Places de parking publiques à proximité.
+La praxis se trouve au rez-de-chaussée et est accessible aux personnes à mobilité réduite.
 
-Nous nous réjouissons de vous accueillir !
+---
+
+## Coût & Remboursement
+
+Le traitement est remboursé par la CNS.  
+
+Pour plus d’informations, consultez:  
+[Psychothérapie auprès de la CNS](https://cns.public.lu/fr/assure/remboursements/prestations-remboursees/prestations-medicales/psychotherapie.html)
