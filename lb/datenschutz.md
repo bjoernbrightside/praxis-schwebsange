@@ -8,7 +8,7 @@ layout: default
 
 # Datenschutz
 
-Deng perséinlech Donnéeë ginn an eiser Praxis **vertraulech behandelt** an net un Drëtt weiderginn.  
+Är perséinlech Donnéeë ginn an eiser Praxis **confidentiel behandelt** an net un Drëtt weiderginn.  
 Weider Informatiounen iwwer Är Rechter fannt Dir op [https://www.cns.public.lu](https://www.cns.public.lu).
 
 [Zréck op d'Startsäit](../lb/)
