@@ -8,7 +8,7 @@ layout: default
 
 # Welcome to the website of the Psychotherapy Practice Schwebsange
 
-Psychotherapy with authorization to practice from the CNS
+Psychotherapy with authorization by the CNS
 
 ---
 
