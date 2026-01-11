@@ -1,10 +1,7 @@
 ---
 layout: default
+lang: fr
 ---
-
-<div class="language-bar">
-<a href="/praxis-schwebsange/lb/">LU</a> | <a href="/praxis-schwebsange/de/">DE</a> | 🇫🇷 <b>FR</b> | <a href="/praxis-schwebsange/en/">EN</a>
-</div>
 
 # Bienvenue sur le site du Cabinet de Psychothérapie Schwebsange
 
