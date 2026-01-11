@@ -2,6 +2,7 @@
 layout: default
 title: Imprint
 lang: en
+permalink: /en/impressum/
 ---
 
 <div class="language-bar">
