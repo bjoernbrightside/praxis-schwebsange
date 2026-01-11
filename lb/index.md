@@ -16,14 +16,9 @@ Psychotherapie mat autorisation d'exercer vun CNS
  
 Fir **Nofroen oder Ufroe fir ee Rendez-Vous**, kontaktéiert eis per E-Mail. Mir äntweren esou séier wéi méiglech.
  
-**Dr Djenna HUTMACHER**
+**Dr Djenna HUTMACHER** | dh@praxis-schwebsange.lu  
 
-dh@praxis-schwebsange.lu  
-
-
-**Dr Björn NICOLAY**
-
-bn@praxis-schwebsange.lu
+**Dr Björn NICOLAY** | bn@praxis-schwebsange.lu
  
 ---
  
