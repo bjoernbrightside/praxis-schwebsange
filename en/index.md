@@ -6,7 +6,7 @@ layout: default
 <a href="/praxis-schwebsange/lb/">LU</a> | <a href="/praxis-schwebsange/de/">DE</a> | <a href="/praxis-schwebsange/fr/">FR</a> | 🇬🇧 <b>EN</b>
 </div>
 
-# Welcome to the Website of Praxis für Psychotherapie Schwebsange
+# Welcome to the Website of Praxis fir Psychotherapie Schwebsange
 
 We offer **professional psychotherapeutic support** for all affected persons through accredited psychotherapists with several years of professional experience.
 
@@ -55,7 +55,7 @@ For **questions or appointment requests**, please contact us by email. We will r
 
 ## Address & Access
 
-**Praxis für Psychotherapie**  
+**Praxis fir Psychotherapie**  
 53, Route du Vin  
 L-5447 Schwebsange
 
