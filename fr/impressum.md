@@ -1,12 +1,18 @@
 ---
 layout: default
-lang: fr
 title: Mentions légales
+lang: fr
 ---
+
+<div class="language-bar">
+<a href="/lu/impressum/">LU</a> | <a href="/de/impressum/">DE</a> | 🇫🇷 <b>FR</b> | <a href="/en/impressum/">EN</a>
+</div>
 
 # Mentions légales
 
 **Nom:** Björn Nicolay  
-**Adresse:** 53, Route du Vin  
+**L'adresse:** 53, Route du Vin  
 L-5447 Schwebsange  
-**E-mail:** bn@praxis-schwebsange.lu
+**E-Mail:** bn@praxis-schwebsange.lu
+
+[Retour à l'accueil](/fr/)
