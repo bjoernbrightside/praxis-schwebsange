@@ -8,17 +8,24 @@ layout: default
 
 # Wëllkomm op der Websäit vun der Praxis fir Psychotherapie Schwebsange
 
-Psychotherapie mat autorisation d'exercer vun CNS
+Psychotherapie mat autorisation d'exercer vun der CNS
 
 ---
  
 ## Kontakt
  
-Fir **Nofroen oder Ufroe fir ee Rendez-Vous**, kontaktéiert eis per E-Mail. Mir äntweren esou séier wéi méiglech.
- 
-**Dr Djenna HUTMACHER** | dh@praxis-schwebsange.lu  
+**Dr Djenna HUTMACHER** 
 
-**Dr Björn NICOLAY** | bn@praxis-schwebsange.lu
+dh@praxis-schwebsange.lu  
+
+
+
+**Dr Björn NICOLAY**
+
+bn@praxis-schwebsange.lu
+
+
+Kontaktéiert eis gären per E-Mail. Mir äntweren esou séier wéi méiglech.
  
 ---
  
@@ -28,9 +35,7 @@ Fir **Nofroen oder Ufroe fir ee Rendez-Vous**, kontaktéiert eis per E-Mail. Mir
 53, Route du Vin  
 L-5447 Schwebsange
  
-D’Praxis ass am **Rez-de-Chaussée** an **barrièrefräi zougänglech**. D'Zougang iwwer d'Schell vum Haaptentrée riets vum Restaurant.
-Ëffentlech Parkplazen sinn nobäi disponibel. 
-Mir freeën eis op Iech!
+D’Praxis ass am Rez-de-Chaussée an barrièrefräi zougänglech. 
 
 ---
 
