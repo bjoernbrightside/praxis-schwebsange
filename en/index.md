@@ -6,7 +6,7 @@ layout: default
 <a href="/praxis-schwebsange/lb/">LU</a> | <a href="/praxis-schwebsange/de/">DE</a> | <a href="/praxis-schwebsange/fr/">FR</a> | 🇬🇧 <b>EN</b>
 </div>
 
-# Welcome to the Website of Praxis fir Psychotherapie Schwebsange
+# Welcome to the Website of the Praxis fir Psychotherapie Schwebsange
 
 We offer **professional psychotherapeutic support** for all affected persons through accredited psychotherapists with several years of professional experience.
 
