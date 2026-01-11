@@ -1,21 +1,28 @@
+/* Hintergrund und Haupttext */
 body {
-  background-color: #F0F4EE;
-  color: #333333;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F0F4EE;  /* helles Salbeigrün */
+  color: #333333;             /* dunkelgrau für Text */
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  margin: 0;
+  padding: 0 20px;
 }
 
+/* Überschriften */
 h1, h2, h3 {
-  color: #556B50;
+  color: #556B50; /* dunkler Salbeigrün */
+  font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Sprachauswahl-Leiste oben rechts */
 .language-bar {
-  background-color: #6B8E64; /* dunkel Salbeigrün */
+  background-color: #6B8E64; /* dunkel Salbeigrün passend zu Visitenkarten */
   color: #FFFFFF;
   padding: 5px 10px;
   text-align: right;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .language-bar a {
@@ -26,4 +33,21 @@ h1, h2, h3 {
 
 .language-bar a:hover {
   text-decoration: underline;
+}
+
+/* Links im Text */
+a {
+  color: #6B8E64;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Footer oder Impressum */
+footer {
+  font-size: 14px;
+  color: #333333;
+  margin-top: 40px;
 }
