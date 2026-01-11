@@ -2,13 +2,12 @@
 <html lang="{{ page.lang | default: 'lb' }}">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
 
 <body>
 
-  <!-- Sprachleiste (NUR HIER!) -->
+  <!-- Sprachleiste (nur einmal!) -->
   <div class="language-bar">
     🇱🇺 <a href="/lb/">LU</a> |
     <a href="/de/">DE</a> |
@@ -16,7 +15,7 @@
     <a href="/en/">EN</a>
   </div>
 
-  <!-- Seiteninhalt -->
+  <!-- Seiteninhalt beginnt DIREKT -->
   <main>
     {{ content }}
   </main>
