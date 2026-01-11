@@ -2,6 +2,7 @@
 layout: default
 title: Datenschutz
 lang: de
+permalink: /de/datenschutz/
 ---
 
 <div class="language-bar">
