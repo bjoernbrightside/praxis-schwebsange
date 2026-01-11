@@ -33,7 +33,7 @@ bn@praxis-schwebsange.lu
 53, Route du Vin  
 L-5447 Schwebsange
  
-D’Praxis ass am **Rez-de-Chaussée**, **barrièrefräi**, Zougang iwwer d'Schell vum Haaptentrée riets vum Restaurant.  
+D’Praxis ass am **Rez-de-Chaussée** an **barrièrefräi zougänglech**. D'Zougang iwwer d'Schell vum Haaptentrée riets vum Restaurant.
 Ëffentlech Parkplazen sinn nobäi disponibel. 
 Mir freeën eis op Iech!
 
