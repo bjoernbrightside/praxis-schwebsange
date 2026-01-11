@@ -8,7 +8,7 @@ layout: default
 
 # Wëllkomm op der Websäit vun der Praxis fir Psychotherapie Schwebsange
 
-Psychotherapie mat autorisation d'exercer vun der CNS
+Psychotherapie mat Zouloossung vun der CNS
 
 ---
  
