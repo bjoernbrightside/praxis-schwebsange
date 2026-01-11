@@ -2,6 +2,7 @@
 layout: default
 title: Impressum
 lang: de
+permalink: /de/impressum/
 ---
 
 <div class="language-bar">
