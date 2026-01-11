@@ -7,15 +7,17 @@ layout: default
 </div>
 
 # Wëllkomm op der Websäit vun der Praxis fir Psychotherapie Schwebsange
- 
+
+Psychotherapie mat autorisation d'exercer vun CNS
+
 ---
  
 ## Kontakt
  
 Fir **Nofroen oder Ufroe fir ee Rendez-Vous**, kontaktéiert eis per E-Mail. Mir äntweren esou séier wéi méiglech.
  
-**Dr. Djenna HUTMACHER** – dh@praxis-schwebsange.lu  
-**Dr. Björn NICOLAY** – bn@praxis-schwebsange.lu
+**Dr Djenna HUTMACHER** – dh@praxis-schwebsange.lu  
+**Dr Björn NICOLAY** – bn@praxis-schwebsange.lu
  
 ---
  
