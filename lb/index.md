@@ -13,9 +13,6 @@ Psychotherapie mat autorisation d'exercer vun der CNS
 ---
  
 ## Kontakt
- 
-**Dr Djenna HUTMACHER** 
-dh@praxis-schwebsange.lu  
 
 **Dr Djenna HUTMACHER**
  
