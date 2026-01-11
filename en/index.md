@@ -6,9 +6,9 @@ layout: default
 <a href="/praxis-schwebsange/lb/">LU</a> | <a href="/praxis-schwebsange/de/">DE</a> | <a href="/praxis-schwebsange/fr/">FR</a> | 🇬🇧 <b>EN</b>
 </div>
 
-# Welcome to the website of Praxis fir Psychotherapie Schwebsange
+# Welcome to the website of the Psychotherapy Practice Schwebsange
 
-Psychotherapy with authorization to practice (autorisation d’exercer) from the CNS
+Psychotherapy with authorization to practice from the CNS
 
 ---
 
@@ -26,7 +26,7 @@ Please contact us by e-mail. We will respond as soon as possible.
 
 ## Address & Access
 
-**Praxis fir Psychotherapie**  
+**Psychotherapy Practice**  
 53, Route du Vin  
 L-5447 Schwebsange
 
