@@ -5,6 +5,26 @@
     <title>{{ page.title | default: site.title }}</title>
     {% include head.html %}
   </head>
+  <footer style="margin-top:40px; padding-top:20px; border-top:1px solid #ccc; font-size:14px; color:#333;">
+  <div class="language-bar">
+    {% if page.url contains '/lb/' %}
+      <a href="/praxis-schwebsange/lb/impressum.html">Impressum</a> | 
+      <a href="/praxis-schwebsange/lb/datenschutz.html">Datenschutz</a>
+    {% elsif page.url contains '/de/' %}
+      <a href="/praxis-schwebsange/de/impressum.html">Impressum</a> | 
+      <a href="/praxis-schwebsange/de/datenschutz.html">Datenschutz</a>
+    {% elsif page.url contains '/fr/' %}
+      <a href="/praxis-schwebsange/fr/impressum.html">Mentions légales</a> | 
+      <a href="/praxis-schwebsange/fr/datenschutz.html">Confidentialité</a>
+    {% elsif page.url contains '/en/' %}
+      <a href="/praxis-schwebsange/en/impressum.html">Imprint</a> | 
+      <a href="/praxis-schwebsange/en/datenschutz.html">Privacy Policy</a>
+    {% else %}
+      <a href="/praxis-schwebsange/lb/impressum.html">Impressum</a> | 
+      <a href="/praxis-schwebsange/lb/datenschutz.html">Datenschutz</a>
+    {% endif %}
+  </div>
+</footer>
   <body>
     {{ content }}
   </body>
