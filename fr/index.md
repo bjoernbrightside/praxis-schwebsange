@@ -6,7 +6,7 @@ layout: default
 <a href="/praxis-schwebsange/lb/">LU</a> | <a href="/praxis-schwebsange/de/">DE</a> | 🇫🇷 <b>FR</b> | <a href="/praxis-schwebsange/en/">EN</a>
 </div>
 
-# Bienvenue sur le site de la Praxis fir Psychotherapie Schwebsange
+# Bienvenue sur le site du Cabinet de Psychothérapie Schwebsange
 
 Psychothérapie avec autorisation d’exercer par la CNS
 
@@ -26,11 +26,11 @@ Merci de nous contacter par e-mail. Nous répondrons dans les plus brefs délais
 
 ## Adresse & Accès
 
-**Praxis fir Psychotherapie**  
+**Cabinet de Psychothérapie**  
 53, Route du Vin  
 L-5447 Schwebsange
 
-La praxis se trouve au rez-de-chaussée et est accessible aux personnes à mobilité réduite.
+Le cabinet se trouve au rez-de-chaussée et est accessible aux personnes à mobilité réduite.
 
 ---
 
