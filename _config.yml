@@ -1,2 +1,2 @@
-title: Praxis für Psychotherapie Schwebsange
-theme: jekyll-theme-cayman
+baseurl: ""       # leer, weil du die Custom Domain auf Root setzt
+url: "https://praxis-schwebsange.lu"
