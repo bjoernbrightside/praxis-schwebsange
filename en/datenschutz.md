@@ -2,6 +2,7 @@
 layout: default
 title: Privacy Policy
 lang: en
+permalink: /en/datenschutz/
 ---
 
 <div class="language-bar">
