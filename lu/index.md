@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: lb
+lang: lu
 ---
 
 # Wëllkomm op der Websäit vun der Praxis fir Psychotherapie Schwebsange
