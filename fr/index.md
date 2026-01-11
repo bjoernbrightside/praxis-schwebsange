@@ -20,16 +20,16 @@ Nous utilisons une **approche intégrative en psychothérapie** : nos thérapeut
 
 ## Nos thérapeutes
 
-### Dr. Djenna HUTMACHER  
-- Doctorat en psychologie  
+### Dr Djenna HUTMACHER  
+- Doctorat en Psychologie  
 - Psychologue / Psychothérapeute  
-- Autorisation ministérielle d'exercer (autorisation d’exercer)  
+- Autorisation ministérielle d'exercer 
 - Langues : Luxembourgeois, Allemand, Français, Anglais  
 
-### Dr. Björn NICOLAY  
-- Doctorat en psychologie  
+### Dr Björn NICOLAY  
+- Doctorat en Psychologie  
 - Psychologue / Psychothérapeute  
-- Autorisation ministérielle d'exercer (autorisation d’exercer)  
+- Autorisation ministérielle d'exercer 
 - Langues : Luxembourgeois, Allemand, Français, Anglais  
 
 ---
