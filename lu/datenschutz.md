@@ -2,6 +2,7 @@
 layout: default
 title: Dateschutz
 lang: lu
+permalink: /lu/datenschutz/
 ---
 
 <div class="language-bar">
