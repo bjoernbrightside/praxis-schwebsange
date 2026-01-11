@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang | default: 'lb' }}">
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
@@ -7,23 +7,25 @@
 </head>
 
 <body>
-  <header>
-    <div class="language-bar">
-      🇱🇺 <a href="/lb/">LU</a> |
-      <a href="/de/">DE</a> |
-      <a href="/fr/">FR</a> |
-      <a href="/en/">EN</a>
-    </div>
-    <h1>{{ site.title }}</h1>
-  </header>
 
+  <!-- Sprachleiste (NUR HIER!) -->
+  <div class="language-bar">
+    🇱🇺 <a href="/lb/">LU</a> |
+    <a href="/de/">DE</a> |
+    <a href="/fr/">FR</a> |
+    <a href="/en/">EN</a>
+  </div>
+
+  <!-- Seiteninhalt -->
   <main>
     {{ content }}
   </main>
 
+  <!-- Footer -->
   <footer>
     <a href="/impressum/">Impressum</a> |
     <a href="/datenschutz/">Datenschutz</a>
   </footer>
+
 </body>
 </html>
