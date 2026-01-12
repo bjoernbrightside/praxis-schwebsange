@@ -1,3 +1,5 @@
 baseurl: ""       # leer, weil Custom Domain auf Root
 url: "https://praxis-schwebsange.lu"
 title: ""         # verhindert Anzeige des Repo-Namens
+plugins:
+  - jekyll-sitemap
