@@ -71,3 +71,11 @@ footer {
   color: #333333;
   margin-top: 40px;
 }
+
+/* Überschrift auf der Seite zentrieren */
+header h1 {
+  text-align: center;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
