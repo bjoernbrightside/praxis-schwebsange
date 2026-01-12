@@ -5,7 +5,7 @@ lang: en
 
 # Welcome to the website of the Psychotherapy Practice Schwebsange
 
-Psychotherapy with authorization by the CNS
+Psychotherapy with authorization of the Ministry of Health and Social Security Luxembourg, reimbursable by the CNS
 
 ---
 
