@@ -14,21 +14,49 @@
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
   <!-- Structured Data für Google -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalOrganization",
-    "name": "Praxis fir Psychotherapie Schwebsange",
-    "url": "https://praxis-schwebsange.lu",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "53, Route du Vin",
-      "addressLocality": "Schwebsange",
-      "postalCode": "L-5447",
-      "addressCountry": "LU"
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": "Praxis fir Psychotherapie Schwebsange",
+  "url": "https://praxis-schwebsange.lu",
+  "medicalSpecialty": "Psychotherapy",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Luxembourg"
+  },
+  "availableLanguage": [
+    {
+      "@type": "Language",
+      "name": "Luxembourgish",
+      "alternateName": "lu"
     },
+    {
+      "@type": "Language",
+      "name": "German",
+      "alternateName": "de"
+    },
+    {
+      "@type": "Language",
+      "name": "French",
+      "alternateName": "fr"
+    },
+    {
+      "@type": "Language",
+      "name": "English",
+      "alternateName": "en"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "53, Route du Vin",
+    "addressLocality": "Schwebsange",
+    "postalCode": "L-5447",
+    "addressCountry": "LU"
   }
-  </script>
+}
+</script>
+
 
 </head>
 <body>
