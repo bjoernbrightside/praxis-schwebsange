@@ -5,7 +5,7 @@ lang: lu
 
 # Wëllkomm op der Websäit vun der Praxis fir Psychotherapie Schwebsange
 
-Psychotherapie mat Zouloossung vum Ministère de la Santé Luxembourg, rembourséierbar vun der CNS
+Psychotherapie mat Zouloossung vum Ministère de la Santé et de la Sécurité sociale Luxembourg, rembourséierbar vun der CNS
 
 ---
  
