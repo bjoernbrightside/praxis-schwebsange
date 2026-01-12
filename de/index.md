@@ -5,7 +5,7 @@ lang: de
 
 # Willkommen auf der Website der Praxis für Psychotherapie Schwebsange
 
-Psychotherapie mit Zulassung vum Luxemburgischen Gesundheitsministerium, erstattbar durch die CNS
+Psychotherapie mit Zulassung vom Ministerium für Gesundheit und soziale Sicherheit Luxemburg, erstattbar durch die CNS
 
 ---
 
