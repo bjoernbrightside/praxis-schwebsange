@@ -65,12 +65,25 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Optional: Footer oder Impressum */
-footer {
-  font-size: 14px;
-  color: #333333;
-  margin-top: 40px;
+/* Footer mittig & ruhig */
+.site-footer {
+  text-align: center;
+  margin-top: 3em;
+  padding: 1.5em 0;
+  font-size: 0.9em;
+  color: #444;
 }
+
+.site-footer a {
+  color: #2f5d50; /* Salbeigrün passend zur Praxis */
+  text-decoration: none;
+  margin: 0 0.3em;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
 
 /* Überschrift auf der Seite zentrieren */
 header h1 {
