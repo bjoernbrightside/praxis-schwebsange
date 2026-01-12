@@ -5,7 +5,7 @@ lang: fr
 
 # Bienvenue sur le site du Cabinet de Psychothérapie Schwebsange
 
-Psychothérapie avec autorisation d’exercer par la Ministère de la Santé Luxembourg, remboursable par la CNS
+Psychothérapie avec autorisation d’exercer par la Ministère de la Santé et de la Sécurité sociale Luxembourg, remboursable par la CNS
 
 ---
 
