@@ -11,11 +11,11 @@ Psychotherapy with authorization of the Ministry of Health and Social Security L
 
 ## Contact
 
-**Dr. Djenna HUTMACHER**  
-dh@praxis-schwebsange.lu  
-
 **Dr. Björn NICOLAY**  
 bn@praxis-schwebsange.lu
+
+**Dr. Djenna HUTMACHER**  
+dh@praxis-schwebsange.lu  
 
 Please contact us by e-mail. We will respond as soon as possible.
 
