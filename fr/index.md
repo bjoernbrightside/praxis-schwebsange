@@ -11,11 +11,11 @@ Psychothérapie avec autorisation d’exercer par la Ministère de la Santé et 
 
 ## Contact
 
-**Dr Djenna HUTMACHER**  
-dh@praxis-schwebsange.lu  
-
 **Dr Björn NICOLAY**  
 bn@praxis-schwebsange.lu
+
+**Dr Djenna HUTMACHER**  
+dh@praxis-schwebsange.lu  
 
 Merci de nous contacter par e-mail. Nous répondrons dans les plus brefs délais.
 
