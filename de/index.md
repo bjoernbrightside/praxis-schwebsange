@@ -11,11 +11,11 @@ Psychotherapie mit Zulassung vom Ministerium für Gesundheit und soziale Sicherh
 
 ## Kontakt
 
-**Dr. Djenna HUTMACHER**  
-dh@praxis-schwebsange.lu  
-
 **Dr. Björn NICOLAY**  
 bn@praxis-schwebsange.lu
+
+**Dr. Djenna HUTMACHER**  
+dh@praxis-schwebsange.lu  
 
 Kontaktieren Sie uns gerne per E-Mail. Wir antworten so schnell wie möglich.
 
