@@ -11,14 +11,11 @@ Psychotherapie mat Zouloossung vum Ministère de la Santé et de la Sécurité s
  
 ## Kontakt
 
-**Dr Djenna HUTMACHER**  
-dh@praxis-schwebsange.lu   
-  
-
-      
 **Dr Björn NICOLAY**  
 bn@praxis-schwebsange.lu
 
+**Dr Djenna HUTMACHER**  
+dh@praxis-schwebsange.lu   
 
 Kontaktéiert eis gären per E-Mail. Mir äntweren esou séier wéi méiglech.
  
