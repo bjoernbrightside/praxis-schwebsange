@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Praxis fir Psychotherapie Schwebsange
