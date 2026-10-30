@@ -5,10 +5,11 @@ title: Praxis fir Psychotherapie Schwebsange
 permalink: /de/
 ---
 
-<!-- WILLKOMMEN -->
+<!-- WILLKOMMENSBEREICH -->
 
-<h1>Willkommen auf der Website der Praxis fir Psychotherapie Schwebsange</h1>
-
+<div class="welcome-hero">
+  <h1>Willkommen auf der Website der Praxis fir Psychotherapie Schwebsange</h1>
+</div>
 
 <!-- ANGEBOTSÜBERSICHT -->
 
@@ -33,9 +34,9 @@ permalink: /de/
         <span class="offer-card-subtitle">Mit Erstattung durch die CNS</span>
 
       </span>
+
       <span class="offer-arrow">→</span>
     </a>
-
 
     <a href="#systemisches-coaching" class="offer-card">
       <span class="offer-card-content">
@@ -51,12 +52,12 @@ permalink: /de/
         <span class="offer-card-subtitle">Eigenständiges Angebot ohne CNS-Erstattung</span>
 
       </span>
+
       <span class="offer-arrow">→</span>
     </a>
 
   </div>
 </div>
-
 
 <!-- KONTAKTHINWEIS -->
 
@@ -65,13 +66,11 @@ permalink: /de/
   Wir antworten so schnell wie möglich.
 </div>
 
-
 <!-- 1. PSYCHOTHERAPIE -->
 
 <section id="psychotherapie" class="content-section">
 
   <h2 class="content-section-title">1. Psychotherapie</h2>
-
 
   <div class="person">
 
@@ -87,7 +86,6 @@ permalink: /de/
 
   </div>
 
-
   <div class="person">
 
     <div class="person-details">
@@ -102,7 +100,6 @@ permalink: /de/
 
   </div>
 
-
   <div class="person">
 
     <div class="person-details">
@@ -115,7 +112,6 @@ permalink: /de/
     </div>
 
   </div>
-
 
   <!-- KOSTEN UND ERSTATTUNG -->
 
@@ -138,13 +134,11 @@ permalink: /de/
 
 </section>
 
-
 <!-- 2. SYSTEMISCHES COACHING -->
 
 <section id="systemisches-coaching" class="content-section">
 
   <h2 class="content-section-title">2. Systemisches Coaching</h2>
-
 
   <div class="person">
 
@@ -160,14 +154,12 @@ permalink: /de/
 
   </div>
 
-
   <p class="contact-note">
     Kontaktieren Sie mich gerne per E-Mail.
     Ich antworte so schnell wie möglich.
   </p>
 
 </section>
-
 
 <!-- ADRESSE UND ANFAHRT -->
 
