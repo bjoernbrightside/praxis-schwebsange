@@ -7,7 +7,7 @@ lang: de
 
 <div class="welcome-hero">
   <div class="welcome-hero-text">
-    <h1>Willkommen auf der Website</h1>
+    <h1>Willkommen auf unserer Website</h1>
     <p class="hero-subtitle">Praxis fir Psychotherapie Schwebsange</p>
   </div>
 </div>
