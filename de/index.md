@@ -170,7 +170,7 @@ lang: de
 </section>
 
 
-<!-- ADRESSE UND ANFAHRT MIT GOOGLE MAPS -->
+<!-- ADRESSE UND GOOGLE MAPS -->
 
 <div class="address-section">
 
@@ -202,10 +202,10 @@ lang: de
 
       <p class="map-link">
         <a
-          href="https://www.google.de/maps/place/Praxis+fir+Psychotherapie+Schwebsange/@49.5115327,6.3542719,17z/"
+          href="https://www.google.de/maps/place/Praxis+fir+Psychotherapie+Schwebsange/@49.5115327,6.3542719,17z/data=!4m14!1m7!3m6!1s0x66d8ca1864240441:0x9f0f371f6b3d7ea0!2sPraxis+fir+Psychotherapie+Schwebsange!8m2!3d49.5115292!4d6.3568468!16s%2Fg%2F11yt7fzy3l!3m5!1s0x66d8ca1864240441:0x9f0f371f6b3d7ea0!8m2!3d49.5115292!4d6.3568468!16s%2Fg%2F11yt7fzy3l"
           target="_blank"
           rel="noopener noreferrer">
-          Route in Google Maps öffnen →
+          Praxis auf Google Maps öffnen →
         </a>
       </p>
 
@@ -215,14 +215,14 @@ lang: de
     <div class="map-box">
 
       <iframe
-        src="https://www.google.com/maps?q=49.5115292,6.3568468&z=17&output=embed"
+        src="https://www.google.com/maps?q=Praxis+fir+Psychotherapie+Schwebsange&output=embed"
         width="100%"
         height="100%"
         style="border:0;"
         loading="lazy"
         allowfullscreen
         referrerpolicy="no-referrer-when-downgrade"
-        title="Google Maps – Praxis fir Psychotherapie Schwebsange">
+        title="Praxis fir Psychotherapie Schwebsange auf Google Maps">
       </iframe>
 
     </div>
