@@ -1,7 +1,6 @@
-
-/* ================================
+/* =========================================
    1. FARBEN UND GRUNDLAGEN
-================================ */
+========================================= */
 
 :root {
   --green-dark: #315B53;
@@ -42,175 +41,179 @@ a:hover {
 }
 
 
-/* ================================
+/* =========================================
    2. HEADER
-================================ */
+========================================= */
 
 .site-header {
+  width: 100%;
   background: var(--white);
   border-bottom: 1px solid var(--border);
 }
 
 .header-inner {
-  max-width: 1200px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 18px 30px;
+  padding: 17px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
 
-.site-title,
-.site-title a {
+.brand {
+  display: flex;
+  flex-direction: column;
   color: var(--green-dark);
-  font-size: 20px;
-  font-weight: 700;
   text-decoration: none;
+  line-height: 1.3;
 }
 
-.language-switch {
+.brand-name {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.brand-location {
+  font-size: 14px;
+  color: var(--muted);
+  letter-spacing: 1.5px;
+}
+
+.language-bar {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 13px;
 }
 
-.language-switch a {
-  color: var(--muted);
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.language-switch a:hover,
-.language-switch a.active {
+.language-bar a {
   color: var(--green-dark);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 5px 3px;
+}
+
+.language-bar a:hover {
+  text-decoration: underline;
 }
 
 
-/* ================================
+/* =========================================
    3. HAUPTBEREICH
-================================ */
+========================================= */
 
 main {
-  width: 100%;
-  max-width: 1120px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 0 25px 60px;
+  padding: 0 30px 55px;
 }
 
 h1,
 h2,
 h3 {
-  line-height: 1.25;
-}
-
-h2 {
   color: var(--green-dark);
-}
-
-
-/* ================================
-   4. WILLKOMMENSBEREICH
-================================ */
-
-.welcome-hero {
-  width: 100vw;
-  min-height: 390px;
-  margin-left: calc(50% - 50vw);
-  padding: 60px 25px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-image:
-    linear-gradient(
-      rgba(20, 38, 34, 0.42),
-      rgba(20, 38, 34, 0.48)
-    ),
-    url("../images/hero-schwebsange.png");
-
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-}
-
-.welcome-hero-text {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.welcome-hero-text h1 {
-  margin: 0 0 15px;
-  color: var(--white);
-  font-size: clamp(28px, 4vw, 43px);
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-.hero-subtitle {
-  margin: 0;
-  color: var(--white);
-  font-size: clamp(22px, 3vw, 32px);
-  font-weight: 500;
   line-height: 1.3;
 }
 
-
-/* ================================
-   5. ANGEBOTSÜBERSICHT
-================================ */
-
-.offer-intro {
-  padding: 55px 0 35px;
-  text-align: center;
-}
-
-.offer-intro h2 {
-  margin: 0 0 30px;
-  font-size: 28px;
+h2 {
+  font-size: 27px;
   font-weight: 600;
+  text-align: center;
+  margin: 0 0 28px;
 }
 
-.offer-links {
+h3 {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+
+/* =========================================
+   4. WILLKOMMENSBEREICH / HERO
+========================================= */
+
+.welcome-hero {
+  position: relative;
+  width: 100vw;
+  min-height: 390px;
+  margin-left: calc(50% - 50vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(25, 43, 38, 0.42), rgba(25, 43, 38, 0.42)),
+    url("../images/hero-schwebsange.png");
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+}
+
+.welcome-hero-text {
+  max-width: 900px;
+  padding: 45px 25px;
+}
+
+.welcome-hero-text h1 {
+  color: var(--white);
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0 0 12px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.hero-subtitle {
+  color: var(--white);
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================================
+   5. ANGEBOTE UND ANGEBOTSKARTEN
+========================================= */
+
+.offer-section {
+  padding: 55px 0 25px;
+}
+
+.offer-section h2 {
+  margin-bottom: 30px;
+}
+
+.offer-cards {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 17px;
   max-width: 850px;
   margin: 0 auto;
 }
 
 .offer-card {
-  min-height: 125px;
-  padding: 22px 28px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-
+  min-height: 125px;
+  padding: 20px 25px;
   background: var(--white);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  box-shadow: 0 3px 12px rgba(40, 60, 50, 0.05);
-
-  color: var(--text);
-  text-align: left;
+  border-radius: 9px;
   text-decoration: none;
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
+  color: var(--text);
+  box-shadow: 0 3px 12px rgba(49, 91, 83, 0.045);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .offer-card:hover {
-  transform: translateY(-3px);
   border-color: var(--green-medium);
-  box-shadow: 0 7px 20px rgba(40, 60, 50, 0.1);
   color: var(--text);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(49, 91, 83, 0.09);
 }
 
 .offer-card-content {
@@ -220,184 +223,207 @@ h2 {
   gap: 4px;
 }
 
-.offer-card-icon {
-  width: 32px;
-  height: 32px;
-  margin-bottom: 7px;
-  color: var(--green-dark);
-}
-
-.offer-card-icon svg {
-  width: 100%;
-  height: 100%;
+.offer-icon {
+  display: block;
+  width: 23px;
+  height: 23px;
+  margin-bottom: 5px;
+  stroke: var(--green-medium);
   fill: none;
-  stroke: currentColor;
-  stroke-width: 1.5;
+  stroke-width: 1.6;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
-.offer-card-title {
+.offer-card h3 {
+  margin: 0;
+  font-size: 20px;
   color: var(--green-dark);
-  font-size: 21px;
-  font-weight: 700;
 }
 
-.offer-card-subtitle {
+.offer-card p {
+  margin: 0;
   color: var(--muted);
   font-size: 15px;
 }
 
 .offer-arrow {
-  color: var(--green-dark);
-  font-size: 28px;
   flex-shrink: 0;
-}
-
-
-/* ================================
-   6. ALLGEMEINER KONTAKTHINWEIS
-================================ */
-
-.contact-note-top {
-  margin: 15px auto 35px;
-  padding: 18px 22px;
-  max-width: 850px;
-
-  background: var(--green-light);
-  border-radius: 8px;
-
+  margin-left: 18px;
   color: var(--green-dark);
-  text-align: center;
+  font-size: 25px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.offer-card:hover .offer-arrow {
+  transform: translateX(4px);
 }
 
 
-/* ================================
+/* =========================================
+   6. ALLGEMEINER KONTAKTHINWEIS
+========================================= */
+
+.contact-note {
+  max-width: 850px;
+  margin: 20px auto 35px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+
+/* =========================================
    7. INHALTSBEREICHE
-================================ */
+========================================= */
 
 .content-section {
   margin: 35px 0;
-  padding: 38px 40px;
-  border-radius: 12px;
+  padding: 42px 38px;
+  border-radius: 9px;
 }
 
-#psychotherapie {
+.content-section h2 {
+  margin-bottom: 30px;
+}
+
+.psychotherapy-section {
   background: var(--psychotherapy-bg);
 }
 
-#systemisches-coaching {
+.coaching-section {
   background: var(--coaching-bg);
 }
 
-.content-section-title {
-  margin: 0 0 30px;
-  color: var(--green-dark);
-  font-size: 28px;
-  font-weight: 600;
-  text-align: center;
+.address-section {
+  background: var(--white);
+  border: 1px solid var(--border);
 }
 
 
-/* ================================
+/* =========================================
    8. PERSONEN UND KONTAKTE
-================================ */
+========================================= */
+
+.person-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
 
 .person {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 25px;
-
-  padding: 20px 0;
-  border-bottom: 1px solid rgba(80, 100, 90, 0.18);
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(49, 91, 83, 0.15);
 }
 
-.person:last-of-type {
+.person:first-child {
+  padding-top: 0;
+}
+
+.person:last-child {
   border-bottom: none;
 }
 
-.person-details {
+.person-info {
+  flex: 1;
   min-width: 0;
 }
 
-.person-details h3 {
-  margin: 0 0 7px;
-  color: var(--green-dark);
-  font-size: 19px;
-  font-weight: 700;
+.person-info h3 {
+  margin: 0 0 8px;
 }
 
-.person-details p {
+.person-info p {
   margin: 3px 0;
-}
-
-.availability,
-.languages {
-  color: var(--text);
   font-size: 15px;
 }
 
-.notice {
-  display: inline-block;
-  margin: 0 0 8px !important;
-  color: var(--muted);
-  font-size: 14px;
-  font-style: italic;
-}
-
-.person-email {
+.person-contact {
   flex-shrink: 0;
   text-align: right;
-}
-
-.person-email a {
-  color: var(--green-dark);
-  font-size: 15px;
-  text-decoration: none;
   overflow-wrap: anywhere;
 }
 
-.person-email a:hover {
+.person-contact a {
+  color: var(--green-dark);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.person-contact a:hover {
   text-decoration: underline;
 }
 
+.availability-note {
+  color: var(--muted);
+  font-size: 14px !important;
+  font-style: italic;
+  margin-bottom: 7px !important;
+}
 
-/* ================================
-   9. KOSTEN UND ERSTATTUNG
-================================ */
+
+/* =========================================
+   9. CNS-KOSTENÜBERNAHME
+========================================= */
 
 .cost-box {
-  margin: 25px 0 0;
+  max-width: 760px;
+  margin: 25px auto 0;
   padding: 22px 25px;
-
   background: var(--green-light);
-  border-radius: 8px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
 }
 
 .cost-box h3 {
-  margin: 0 0 10px;
-  color: var(--green-dark);
-  font-size: 18px;
+  font-size: 17px;
+  margin: 0 0 8px;
 }
 
 .cost-box p {
-  margin: 0;
+  margin: 0 0 10px;
   font-size: 14px;
 }
 
 .cost-box a {
-  color: var(--green-dark);
+  font-size: 14px;
   font-weight: 600;
+  text-decoration: underline;
+}
+
+.coaching-note {
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 
-/* ================================
+/* =========================================
    10. ADRESSE UND GOOGLE MAPS
-================================ */
+========================================= */
 
-.address-section {
-  margin: 45px 0 20px;
+.address-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.address-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  stroke: var(--green-medium);
+  fill: none;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .address-map-layout {
@@ -408,63 +434,31 @@ h2 {
 }
 
 .address-box {
-  padding: 25px;
-  background: var(--white);
+  padding: 20px;
+  background: var(--background);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 7px;
 }
 
-.section-heading {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  margin: 0 0 22px;
-  color: var(--green-dark);
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.section-icon {
-  display: inline-flex;
-  width: 25px;
-  height: 25px;
-  flex-shrink: 0;
-}
-
-.section-icon svg {
-  width: 100%;
-  height: 100%;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+.address-box h3 {
+  margin-top: 0;
 }
 
 .address-box p {
-  margin: 8px 0;
+  font-size: 15px;
 }
 
-.map-link {
-  margin-top: 22px !important;
-}
-
-.map-link a {
+.address-box a {
   font-weight: 600;
-  text-decoration: none;
-}
-
-.map-link a:hover {
   text-decoration: underline;
 }
 
 .map-box {
+  min-width: 0;
   min-height: 320px;
   overflow: hidden;
-  background: var(--white);
+  border-radius: 7px;
   border: 1px solid var(--border);
-  border-radius: 10px;
 }
 
 .map-box iframe {
@@ -476,59 +470,90 @@ h2 {
 }
 
 
-/* ================================
+/* =========================================
    11. FOOTER
-================================ */
+========================================= */
 
 .site-footer {
-  padding: 25px 20px;
+  width: 100%;
   background: var(--green-dark);
   color: var(--white);
-  text-align: center;
 }
 
-.site-footer a {
-  margin: 0 10px;
-  color: var(--white);
+.footer-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+.footer-brand strong {
+  font-size: 16px;
+}
+
+.footer-brand span {
   font-size: 14px;
+  opacity: 0.8;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: var(--white);
   text-decoration: none;
 }
 
-.site-footer a:hover {
+.footer-links a:hover {
   text-decoration: underline;
 }
 
 
-/* ================================
-   12. TABLET UND MOBILE
-================================ */
+/* =========================================
+   12. TABLET UND MOBIL
+========================================= */
 
 @media (max-width: 700px) {
 
   .header-inner {
-    padding: 15px 18px;
+    padding: 14px 18px;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 12px;
   }
 
-  .site-title,
-  .site-title a {
-    font-size: 18px;
+  .brand {
+    align-items: center;
     text-align: center;
   }
 
-  .language-switch {
+  .language-bar {
     gap: 18px;
   }
 
   main {
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 0 17px 35px;
   }
 
   .welcome-hero {
-    min-height: 320px;
-    padding: 45px 20px;
+    min-height: 330px;
+  }
+
+  .welcome-hero-text {
+    padding: 35px 18px;
   }
 
   .welcome-hero-text h1 {
@@ -539,58 +564,73 @@ h2 {
     font-size: 24px;
   }
 
-  .offer-intro {
-    padding-top: 40px;
+  .offer-section {
+    padding-top: 38px;
   }
 
-  .offer-intro h2 {
-    font-size: 24px;
+  .offer-section h2 {
+    font-size: 23px;
   }
 
   .offer-card {
     min-height: 115px;
-    padding: 18px 20px;
+    padding: 17px 18px;
   }
 
-  .offer-card-title {
-    font-size: 19px;
+  .offer-card h3 {
+    font-size: 18px;
+  }
+
+  .offer-card p {
+    font-size: 14px;
   }
 
   .content-section {
-    padding: 28px 22px;
+    padding: 30px 20px;
+    margin: 25px 0;
   }
 
-  .content-section-title {
-    font-size: 25px;
+  .content-section h2 {
+    font-size: 23px;
   }
 
   .person {
-    align-items: flex-start;
     flex-direction: column;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 20px 0;
   }
 
-  .person-email {
+  .person-contact {
     text-align: left;
   }
 
   .address-map-layout {
     grid-template-columns: 1fr;
+    gap: 18px;
   }
 
-  .map-box,
+  .map-box {
+    min-height: 280px;
+  }
+
   .map-box iframe {
     min-height: 280px;
   }
 
+  .footer-inner {
+    padding: 23px 18px;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .footer-brand {
+    align-items: center;
+  }
 }
 
-
 @media (max-width: 400px) {
-
-  .welcome-hero {
-    min-height: 280px;
-  }
 
   .welcome-hero-text h1 {
     font-size: 25px;
@@ -600,24 +640,19 @@ h2 {
     font-size: 21px;
   }
 
-  .offer-intro h2 {
-    font-size: 22px;
-  }
-
   .offer-card {
-    padding: 16px;
+    padding: 15px;
   }
 
-  .offer-card-title {
-    font-size: 18px;
+  .offer-card h3 {
+    font-size: 17px;
+  }
+
+  .offer-card p {
+    font-size: 13px;
   }
 
   .content-section {
-    padding: 24px 17px;
+    padding: 25px 15px;
   }
-
-  .address-box {
-    padding: 20px;
-  }
-
 }
