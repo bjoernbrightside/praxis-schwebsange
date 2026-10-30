@@ -1,3 +1,4 @@
+
 /* =========================================
    GRUNDDESIGN
 ========================================= */
@@ -123,12 +124,12 @@ p {
    WILLKOMMENSBEREICH MIT HINTERGRUNDBILD
 ========================================= */
 
-main > h1:first-child {
+.welcome-hero {
   width: 100vw;
-  margin: 0 0 0 calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
   padding: 95px 20px;
 
-  background:
+  background-image:
     linear-gradient(
       rgba(247, 246, 241, 0.35),
       rgba(247, 246, 241, 0.48)
@@ -140,6 +141,11 @@ main > h1:first-child {
   background-repeat: no-repeat;
 
   text-align: center;
+}
+
+.welcome-hero h1 {
+  max-width: 950px;
+  margin: 0 auto;
   font-size: clamp(30px, 4vw, 46px);
   color: var(--green-dark);
 }
@@ -190,6 +196,7 @@ main > h1:first-child {
 .offer-card-content {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   text-align: left;
 }
 
@@ -206,6 +213,31 @@ main > h1:first-child {
 .offer-arrow {
   font-size: 26px;
   color: var(--green-dark);
+}
+
+/* =========================================
+   ICONS IN DEN ANGEBOTSKÄSTCHEN
+========================================= */
+
+.offer-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 4px;
+  color: var(--green-dark);
+}
+
+.offer-card-icon svg {
+  display: block;
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* =========================================
@@ -239,7 +271,7 @@ main > h1:first-child {
   scroll-margin-top: 25px;
 }
 
-/* Coaching – dezentes Blau-Grau */
+/* Systemisches Coaching – dezentes Blau-Grau */
 
 #systemisches-coaching {
   background: var(--coaching-bg);
@@ -254,8 +286,15 @@ main > h1:first-child {
   margin: 0 0 35px;
 }
 
+/* Zentrierte Abschnittsüberschriften */
+
+.content-section-title {
+  text-align: center;
+  margin: 0 0 35px;
+}
+
 /* =========================================
-   ICONS AN DEN ÜBERSCHRIFTEN
+   ICON FÜR ADRESSE UND ANFAHRT
 ========================================= */
 
 .section-heading {
@@ -288,7 +327,7 @@ main > h1:first-child {
 }
 
 /* =========================================
-   PERSONEN – LINKS NAME, RECHTS E-MAIL
+   PERSONEN
 ========================================= */
 
 .person {
@@ -480,8 +519,11 @@ main > h1:first-child {
     padding: 0 20px;
   }
 
-  main > h1:first-child {
+  .welcome-hero {
     padding: 75px 20px;
+  }
+
+  .welcome-hero h1 {
     font-size: 30px;
   }
 
@@ -499,6 +541,16 @@ main > h1:first-child {
 
   .offer-card-title {
     font-size: 21px;
+  }
+
+  .offer-card-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .offer-card-icon svg {
+    width: 21px;
+    height: 21px;
   }
 
   .contact-note-top {
@@ -558,47 +610,12 @@ main > h1:first-child {
     padding: 40px 0;
   }
 
+  .address-box {
+    padding: 25px 20px;
+  }
+
   .footer-inner {
     flex-direction: column;
     align-items: flex-start;
   }
 }
-
-/* =========================================
-   ZENTRIERTE ÜBERSCHRIFTEN
-========================================= */
-
-.content-section-title {
-  text-align: center;
-  margin-bottom: 35px;
-}
-
-/* =========================================
-   ICONS IN DEN ANGEBOTSKÄSTCHEN
-========================================= */
-
-.offer-card-content {
-  position: relative;
-}
-
-.offer-card-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  margin-bottom: 8px;
-  color: var(--green-dark);
-}
-
-.offer-card-icon svg {
-  width: 27px;
-  height: 27px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-/* Adresse-Icon bleibt erhalten */
