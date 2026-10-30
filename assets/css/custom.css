@@ -1,19 +1,17 @@
-/* =========================================
+
+/* ================================
    1. FARBEN UND GRUNDLAGEN
-========================================= */
+================================ */
 
 :root {
   --green-dark: #315B53;
   --green-medium: #6B8E80;
   --green-light: #E9EEE8;
-
   --background: #F7F6F1;
   --white: #FFFFFF;
-
   --text: #38433F;
   --muted: #718078;
   --border: #DCE3DC;
-
   --psychotherapy-bg: #F0EAE0;
   --coaching-bg: #E8EEF0;
 }
@@ -28,154 +26,152 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  background: var(--background);
+  color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.65;
-  color: var(--text);
-  background: var(--background);
 }
 
 a {
   color: var(--green-dark);
 }
 
-img {
-  max-width: 100%;
+a:hover {
+  color: var(--green-medium);
 }
 
 
-/* =========================================
+/* ================================
    2. HEADER
-========================================= */
+================================ */
 
 .site-header {
-  width: 100%;
   background: var(--white);
   border-bottom: 1px solid var(--border);
 }
 
 .header-inner {
-  max-width: 1180px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 18px 30px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
 
-.brand {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
+.site-title,
+.site-title a {
   color: var(--green-dark);
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.language-switch a {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.language-switch a:hover,
+.language-switch a.active {
+  color: var(--green-dark);
+}
+
+
+/* ================================
+   3. HAUPTBEREICH
+================================ */
+
+main {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 25px 60px;
+}
+
+h1,
+h2,
+h3 {
   line-height: 1.25;
 }
 
-.brand-name {
-  font-size: 19px;
-  font-weight: 700;
-  letter-spacing: 0.2px;
-}
-
-.brand-location {
-  font-size: 14px;
-  color: var(--muted);
-  letter-spacing: 1.5px;
-}
-
-.language-bar {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.language-bar a {
+h2 {
   color: var(--green-dark);
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.language-bar a:hover {
-  text-decoration: underline;
 }
 
 
-/* =========================================
-   3. HAUPTBEREICH
-========================================= */
-
-main {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 0 30px 60px;
-}
-
-
-/* =========================================
-   4. WILLKOMMENSBEREICH / HERO-BILD
-========================================= */
+/* ================================
+   4. WILLKOMMENSBEREICH
+================================ */
 
 .welcome-hero {
-  position: relative;
-
   width: 100vw;
   min-height: 390px;
-
   margin-left: calc(50% - 50vw);
-  margin-bottom: 55px;
+  padding: 60px 25px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  padding: 50px 30px;
-
   background-image:
     linear-gradient(
-      rgba(25, 45, 39, 0.35),
-      rgba(25, 45, 39, 0.35)
+      rgba(20, 38, 34, 0.42),
+      rgba(20, 38, 34, 0.48)
     ),
     url("../images/hero-schwebsange.png");
 
   background-size: cover;
-  background-position: center 52%;
-  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
 }
 
-.welcome-hero h1 {
-  max-width: 850px;
-  margin: 0;
+.welcome-hero-text {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
 
+.welcome-hero-text h1 {
+  margin: 0 0 15px;
   color: var(--white);
   font-size: clamp(28px, 4vw, 43px);
-  line-height: 1.25;
   font-weight: 600;
-  text-align: center;
+  line-height: 1.2;
+}
 
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+.hero-subtitle {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 500;
+  line-height: 1.3;
 }
 
 
-/* =========================================
+/* ================================
    5. ANGEBOTSÜBERSICHT
-========================================= */
+================================ */
 
 .offer-intro {
-  margin: 0 auto 30px;
+  padding: 55px 0 35px;
   text-align: center;
 }
 
 .offer-intro h2 {
   margin: 0 0 30px;
-  color: var(--green-dark);
   font-size: 28px;
   font-weight: 600;
-  line-height: 1.3;
 }
 
 .offer-links {
@@ -187,21 +183,22 @@ main {
 }
 
 .offer-card {
+  min-height: 125px;
+  padding: 22px 28px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
 
-  padding: 25px 30px;
-
   background: var(--white);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(40, 60, 50, 0.05);
 
   color: var(--text);
+  text-align: left;
   text-decoration: none;
-
-  box-shadow: 0 3px 12px rgba(30, 50, 40, 0.04);
 
   transition:
     transform 0.2s ease,
@@ -212,36 +209,30 @@ main {
 .offer-card:hover {
   transform: translateY(-3px);
   border-color: var(--green-medium);
-  box-shadow: 0 7px 20px rgba(30, 50, 40, 0.10);
+  box-shadow: 0 7px 20px rgba(40, 60, 50, 0.1);
+  color: var(--text);
 }
 
 .offer-card-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-align: left;
   gap: 4px;
 }
 
 .offer-card-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 38px;
-  height: 38px;
-  margin-bottom: 5px;
-
+  width: 32px;
+  height: 32px;
+  margin-bottom: 7px;
   color: var(--green-dark);
 }
 
 .offer-card-icon svg {
-  width: 23px;
-  height: 23px;
-
+  width: 100%;
+  height: 100%;
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.7;
+  stroke-width: 1.5;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -258,34 +249,37 @@ main {
 }
 
 .offer-arrow {
-  flex-shrink: 0;
   color: var(--green-dark);
-  font-size: 27px;
+  font-size: 28px;
+  flex-shrink: 0;
 }
 
 
-/* =========================================
-   6. KONTAKTHINWEIS OBEN
-========================================= */
+/* ================================
+   6. ALLGEMEINER KONTAKTHINWEIS
+================================ */
 
 .contact-note-top {
-  margin: 30px auto 45px;
+  margin: 15px auto 35px;
+  padding: 18px 22px;
+  max-width: 850px;
+
+  background: var(--green-light);
+  border-radius: 8px;
+
+  color: var(--green-dark);
   text-align: center;
-  color: var(--muted);
-  font-size: 15px;
 }
 
 
-/* =========================================
+/* ================================
    7. INHALTSBEREICHE
-========================================= */
+================================ */
 
 .content-section {
-  margin: 0 0 35px;
-  padding: 35px;
-
-  border-radius: 9px;
-  scroll-margin-top: 25px;
+  margin: 35px 0;
+  padding: 38px 40px;
+  border-radius: 12px;
 }
 
 #psychotherapie {
@@ -298,16 +292,16 @@ main {
 
 .content-section-title {
   margin: 0 0 30px;
-  text-align: center;
   color: var(--green-dark);
-  font-size: 27px;
+  font-size: 28px;
   font-weight: 600;
+  text-align: center;
 }
 
 
-/* =========================================
-   8. PERSONEN UND KONTAKTDATEN
-========================================= */
+/* ================================
+   8. PERSONEN UND KONTAKTE
+================================ */
 
 .person {
   display: flex;
@@ -324,12 +318,11 @@ main {
 }
 
 .person-details {
-  flex: 1;
   min-width: 0;
 }
 
 .person-details h3 {
-  margin: 0 0 5px;
+  margin: 0 0 7px;
   color: var(--green-dark);
   font-size: 19px;
   font-weight: 700;
@@ -337,25 +330,30 @@ main {
 
 .person-details p {
   margin: 3px 0;
+}
+
+.availability,
+.languages {
+  color: var(--text);
   font-size: 15px;
 }
 
-.availability {
-  color: var(--text);
-}
-
-.languages {
+.notice {
+  display: inline-block;
+  margin: 0 0 8px !important;
   color: var(--muted);
+  font-size: 14px;
+  font-style: italic;
 }
 
 .person-email {
   flex-shrink: 0;
   text-align: right;
-  font-size: 14px;
 }
 
 .person-email a {
   color: var(--green-dark);
+  font-size: 15px;
   text-decoration: none;
   overflow-wrap: anywhere;
 }
@@ -364,19 +362,10 @@ main {
   text-decoration: underline;
 }
 
-.notice {
-  display: inline-block;
-  margin: 0 0 7px !important;
-  color: #8B5E43;
-  font-size: 14px !important;
-  font-weight: 600;
-}
 
-
-/* =========================================
-   9. KOSTEN UND CNS-ERSTATTUNG
-   Die Box bleibt innerhalb des Sandbereichs.
-========================================= */
+/* ================================
+   9. KOSTEN UND ERSTATTUNG
+================================ */
 
 .cost-box {
   margin: 25px 0 0;
@@ -389,35 +378,23 @@ main {
 .cost-box h3 {
   margin: 0 0 10px;
   color: var(--green-dark);
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .cost-box p {
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .cost-box a {
   color: var(--green-dark);
   font-weight: 600;
-  text-decoration: underline;
 }
 
 
-/* =========================================
-   10. KONTAKTHINWEIS COACHING
-========================================= */
-
-.contact-note {
-  margin: 20px 0 0;
-  color: var(--muted);
-  font-size: 15px;
-}
-
-
-/* =========================================
-   11. ADRESSE UND GOOGLE MAPS
-========================================= */
+/* ================================
+   10. ADRESSE UND GOOGLE MAPS
+================================ */
 
 .address-section {
   margin: 45px 0 20px;
@@ -431,45 +408,33 @@ main {
 }
 
 .address-box {
-  width: 100%;
-  min-width: 0;
-  padding: 30px;
-
+  padding: 25px;
   background: var(--white);
-  border-radius: 8px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
 }
 
 .section-heading {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 12px;
+  gap: 10px;
 
-  margin: 0 0 25px;
-
+  margin: 0 0 22px;
   color: var(--green-dark);
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 600;
-  text-align: center;
 }
-
-/* Standort-Icon */
 
 .section-icon {
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 26px;
-  height: 26px;
-
-  color: var(--green-dark);
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
 }
 
 .section-icon svg {
-  width: 23px;
-  height: 23px;
-
+  width: 100%;
+  height: 100%;
   fill: none;
   stroke: currentColor;
   stroke-width: 1.7;
@@ -479,36 +444,27 @@ main {
 
 .address-box p {
   margin: 8px 0;
-  font-size: 15px;
-}
-
-.address-box strong {
-  color: var(--green-dark);
 }
 
 .map-link {
-  margin-top: 20px !important;
-  margin-bottom: 0 !important;
+  margin-top: 22px !important;
 }
 
 .map-link a {
-  color: var(--green-dark);
-  font-size: 14px;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.map-link a:hover {
   text-decoration: underline;
 }
 
-/* Google-Maps-Karte */
-
 .map-box {
-  width: 100%;
-  min-width: 0;
   min-height: 320px;
-
   overflow: hidden;
-
   background: var(--white);
-  border-radius: 8px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
 }
 
 .map-box iframe {
@@ -520,163 +476,106 @@ main {
 }
 
 
-/* =========================================
-   12. FOOTER
-========================================= */
+/* ================================
+   11. FOOTER
+================================ */
 
 .site-footer {
-  width: 100%;
-  background: var(--white);
-  border-top: 1px solid var(--border);
+  padding: 25px 20px;
+  background: var(--green-dark);
+  color: var(--white);
+  text-align: center;
 }
 
-.footer-inner {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 25px 30px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.footer-brand {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.35;
-}
-
-.footer-brand strong {
-  color: var(--green-dark);
-  font-size: 15px;
-}
-
-.footer-brand span {
-  color: var(--muted);
-  font-size: 13px;
-  letter-spacing: 1px;
-}
-
-.footer-links {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.footer-links a {
-  color: var(--green-dark);
+.site-footer a {
+  margin: 0 10px;
+  color: var(--white);
+  font-size: 14px;
   text-decoration: none;
 }
 
-.footer-links a:hover {
+.site-footer a:hover {
   text-decoration: underline;
 }
 
 
-/* =========================================
-   13. TABLET UND MOBILE
-========================================= */
+/* ================================
+   12. TABLET UND MOBILE
+================================ */
 
 @media (max-width: 700px) {
 
-  /* Header */
-
   .header-inner {
-    padding: 15px 20px;
-    flex-wrap: wrap;
-    gap: 12px;
+    padding: 15px 18px;
+    flex-direction: column;
+    gap: 10px;
   }
 
-  .brand-name {
-    font-size: 17px;
+  .site-title,
+  .site-title a {
+    font-size: 18px;
+    text-align: center;
   }
 
-  .language-bar {
-    gap: 12px;
+  .language-switch {
+    gap: 18px;
   }
-
-  /* Hauptbereich */
 
   main {
-    padding: 0 20px 40px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
-
-  /* Hero */
 
   .welcome-hero {
-    min-height: 300px;
-    margin-bottom: 40px;
-    padding: 35px 22px;
-    background-position: center;
+    min-height: 320px;
+    padding: 45px 20px;
   }
 
-  .welcome-hero h1 {
+  .welcome-hero-text h1 {
     font-size: 29px;
   }
 
-  /* Angebotsübersicht */
+  .hero-subtitle {
+    font-size: 24px;
+  }
+
+  .offer-intro {
+    padding-top: 40px;
+  }
 
   .offer-intro h2 {
     font-size: 24px;
   }
 
   .offer-card {
-    padding: 20px;
+    min-height: 115px;
+    padding: 18px 20px;
   }
 
   .offer-card-title {
     font-size: 19px;
   }
 
-  .offer-card-subtitle {
-    font-size: 14px;
-  }
-
-  /* Inhaltsbereiche */
-
   .content-section {
-    padding: 25px 20px;
-    margin-bottom: 25px;
+    padding: 28px 22px;
   }
 
   .content-section-title {
-    font-size: 24px;
+    font-size: 25px;
   }
 
-  /* Personen */
-
   .person {
-    flex-direction: column;
     align-items: flex-start;
+    flex-direction: column;
     gap: 10px;
-    padding: 18px 0;
   }
 
   .person-email {
     text-align: left;
-    font-size: 14px;
   }
-
-  /* Kostenbox */
-
-  .cost-box {
-    margin: 25px 0 0;
-    padding: 20px;
-  }
-
-  /* Adresse und Karte */
 
   .address-map-layout {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 18px;
-  }
-
-  .address-box {
-    padding: 25px 20px;
+    grid-template-columns: 1fr;
   }
 
   .map-box,
@@ -684,48 +583,41 @@ main {
     min-height: 280px;
   }
 
-  /* Footer */
-
-  .footer-inner {
-    padding: 22px 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-  }
 }
 
 
-/* =========================================
-   14. KLEINE SMARTPHONES
-========================================= */
-
 @media (max-width: 400px) {
 
-  .brand-name {
-    font-size: 15px;
+  .welcome-hero {
+    min-height: 280px;
   }
 
-  .language-bar {
-    gap: 9px;
-  }
-
-  .language-bar a {
-    font-size: 12px;
-  }
-
-  .welcome-hero h1 {
+  .welcome-hero-text h1 {
     font-size: 25px;
   }
 
-  .offer-card {
-    padding: 17px;
+  .hero-subtitle {
+    font-size: 21px;
   }
 
-  .content-section-title {
+  .offer-intro h2 {
     font-size: 22px;
   }
 
-  .section-heading {
-    font-size: 21px;
+  .offer-card {
+    padding: 16px;
   }
+
+  .offer-card-title {
+    font-size: 18px;
+  }
+
+  .content-section {
+    padding: 24px 17px;
+  }
+
+  .address-box {
+    padding: 20px;
+  }
+
 }
