@@ -223,8 +223,6 @@ main {
   gap: 4px;
 }
 
-/* Icons nur in den beiden Angebotskarten */
-
 .offer-card-icon {
   display: flex;
   align-items: center;
@@ -377,11 +375,12 @@ main {
 
 /* =========================================
    9. KOSTEN UND CNS-ERSTATTUNG
+   Die Box bleibt innerhalb des Sandbereichs.
 ========================================= */
 
 .cost-box {
-  margin: 30px -35px 0;
-  padding: 28px 35px;
+  margin: 25px 0 0;
+  padding: 22px 25px;
 
   background: var(--green-light);
   border-radius: 8px;
@@ -426,14 +425,14 @@ main {
 
 .address-map-layout {
   display: grid;
-  grid-template-columns: 1fr 1.35fr;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.3fr);
   gap: 25px;
   align-items: stretch;
 }
 
 .address-box {
   width: 100%;
-  max-width: none;
+  min-width: 0;
   padding: 30px;
 
   background: var(--white);
@@ -502,7 +501,10 @@ main {
 /* Google-Maps-Karte */
 
 .map-box {
-  min-height: 300px;
+  width: 100%;
+  min-width: 0;
+  min-height: 320px;
+
   overflow: hidden;
 
   background: var(--white);
@@ -513,7 +515,7 @@ main {
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 300px;
+  min-height: 320px;
   border: 0;
 }
 
@@ -662,14 +664,14 @@ main {
   /* Kostenbox */
 
   .cost-box {
-    margin: 25px -20px 0;
-    padding: 25px 20px;
+    margin: 25px 0 0;
+    padding: 20px;
   }
 
   /* Adresse und Karte */
 
   .address-map-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 18px;
   }
 
