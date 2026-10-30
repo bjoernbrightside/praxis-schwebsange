@@ -1,4 +1,7 @@
-<html lang="{{ page.lang }}">
+
+{% assign current_lang = page.lang | default: "de" %}
+<!DOCTYPE html>
+<html lang="{{ current_lang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +49,7 @@
 <header class="site-header">
   <div class="header-inner">
 
-    <a class="brand" href="/{{ page.lang }}/">
+    <a class="brand" href="/{{ current_lang }}/">
       <span class="brand-name">Praxis fir Psychotherapie</span>
       <span class="brand-location">Schwebsange</span>
     </a>
@@ -74,9 +77,9 @@
     </div>
 
     <div class="footer-links">
-      <a href="/{{ page.lang }}/impressum/">Impressum</a>
+      <a href="/{{ current_lang }}/impressum/">Impressum</a>
       <span>|</span>
-      <a href="/{{ page.lang }}/datenschutz/">Datenschutz</a>
+      <a href="/{{ current_lang }}/datenschutz/">Datenschutz</a>
     </div>
 
   </div>
