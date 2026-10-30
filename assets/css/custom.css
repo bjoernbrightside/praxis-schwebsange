@@ -563,3 +563,42 @@ main > h1:first-child {
     align-items: flex-start;
   }
 }
+
+/* =========================================
+   ZENTRIERTE ÜBERSCHRIFTEN
+========================================= */
+
+.content-section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/* =========================================
+   ICONS IN DEN ANGEBOTSKÄSTCHEN
+========================================= */
+
+.offer-card-content {
+  position: relative;
+}
+
+.offer-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 8px;
+  color: var(--green-dark);
+}
+
+.offer-card-icon svg {
+  width: 27px;
+  height: 27px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Adresse-Icon bleibt erhalten */
