@@ -11,6 +11,9 @@
   --text: #38433F;
   --muted: #718078;
   --border: #DCE3DC;
+
+  --psychotherapy-bg: #F0EAE0;
+  --coaching-bg: #E8EEF0;
 }
 
 * {
@@ -226,9 +229,62 @@ main > h1:first-child {
   scroll-margin-top: 25px;
 }
 
+/* Psychotherapie – warmes Sandbeige */
+
+#psychotherapie {
+  background: var(--psychotherapy-bg);
+  padding: 55px 35px;
+  margin: 0 -35px;
+  border-radius: 8px;
+  scroll-margin-top: 25px;
+}
+
+/* Coaching – dezentes Blau-Grau */
+
+#systemisches-coaching {
+  background: var(--coaching-bg);
+  padding: 55px 35px;
+  margin: 0 -35px;
+  border-radius: 8px;
+  scroll-margin-top: 25px;
+}
+
 .content-section > h2 {
   font-size: 34px;
   margin: 0 0 35px;
+}
+
+/* =========================================
+   ICONS AN DEN ÜBERSCHRIFTEN
+========================================= */
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  color: var(--green-dark);
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+}
+
+.section-icon svg {
+  width: 21px;
+  height: 21px;
+  display: block;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* =========================================
@@ -312,16 +368,8 @@ main > h1:first-child {
 }
 
 /* =========================================
-   COACHING
+   COACHING-KONTAKTHINWEIS
 ========================================= */
-
-#systemisches-coaching {
-  background: #F0F2EC;
-  padding: 55px 35px;
-  margin: 0 -35px;
-  border-radius: 8px;
-  scroll-margin-top: 25px;
-}
 
 .contact-note {
   margin: 25px 0 0;
@@ -462,8 +510,33 @@ main > h1:first-child {
     padding: 40px 0;
   }
 
+  #psychotherapie {
+    padding: 40px 20px;
+    margin: 0 -20px;
+  }
+
+  #systemisches-coaching {
+    padding: 40px 20px;
+    margin: 0 -20px;
+  }
+
   .content-section > h2 {
     font-size: 29px;
+  }
+
+  .section-heading {
+    gap: 10px;
+  }
+
+  .section-icon {
+    flex-basis: 34px;
+    width: 34px;
+    height: 34px;
+  }
+
+  .section-icon svg {
+    width: 19px;
+    height: 19px;
   }
 
   .person {
@@ -479,11 +552,6 @@ main > h1:first-child {
 
   .person-details h3 {
     font-size: 21px;
-  }
-
-  #systemisches-coaching {
-    padding: 40px 20px;
-    margin: 0 -20px;
   }
 
   .address-section {
