@@ -1,93 +1,86 @@
-<!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- SEO -->
-  <title>{{ page.title }} | Praxis fir Psychotherapie Schwebsange</title>
-  <meta name="description" content="{{ page.description | default: 'Praxis fir Psychotherapie Schwebsange – professionell psychotherapeutesch Begleedung mat Remboursement vun der CNS op Lëtzebuergesch, Deutsch, Français, English.' }}">
-  <meta name="keywords" content="Praxis fir Psychotherapie, Psychotherapie Schwebsange, Psychotherapeut, Psychotherapie Luxembourg, Psychotherapie Luxemburg, Psychotherapie Remich, Psychotherapie Schengen, Psychotherapie Remerschen,
-    Psychotherapie CNS, Psychotherapie remboursée Luxembourg, Psychotherapie remboursement CNS, Psychotherapie Musel, Psychotherapie Moselle, Psychotherapie Mosel, kognitive Verhaltenstherapie, ACT, Schematherapie">
+  <title>{{ page.title | default: "Praxis fir Psychotherapie Schwebsange" }} | Praxis fir Psychotherapie Schwebsange</title>
+
+  <meta name="description" content="{{ page.description | default: 'Praxis fir Psychotherapie Schwebsange – Psychotherapie und systemisches Coaching in Luxemburg.' }}">
+
+  <meta name="keywords" content="Praxis fir Psychotherapie, Psychotherapie Schwebsange, Psychotherapie Luxembourg, Psychotherapie Luxemburg, Psychotherapie CNS, Systemisches Coaching, Remich, Schengen">
+
   <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-  <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-  <!-- Structured Data für Google -->
- <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalOrganization",
-  "name": "Praxis fir Psychotherapie Schwebsange",
-  "url": "https://praxis-schwebsange.lu",
-  "medicalSpecialty": "Psychotherapy",
-  "areaServed": {
-    "@type": "Country",
-    "name": "Luxembourg"
-  },
-  "availableLanguage": [
-    {
-      "@type": "Language",
-      "name": "Luxembourgish",
-      "alternateName": "lu"
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Praxis fir Psychotherapie Schwebsange",
+    "url": "https://praxis-schwebsange.lu",
+    "medicalSpecialty": "Psychotherapy",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Luxembourg"
     },
-    {
-      "@type": "Language",
-      "name": "German",
-      "alternateName": "de"
-    },
-    {
-      "@type": "Language",
-      "name": "French",
-      "alternateName": "fr"
-    },
-    {
-      "@type": "Language",
-      "name": "English",
-      "alternateName": "en"
+    "availableLanguage": [
+      "Luxembourgish",
+      "German",
+      "French",
+      "English"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "53, Route du Vin",
+      "addressLocality": "Schwebsange",
+      "postalCode": "L-5447",
+      "addressCountry": "LU"
     }
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "53, Route du Vin",
-    "addressLocality": "Schwebsange",
-    "postalCode": "L-5447",
-    "addressCountry": "LU"
   }
-}
-</script>
-
-
+  </script>
 </head>
+
 <body>
 
-  <!-- Header mit Home Button und Sprachwahl -->
-  <header>
-      <div class="language-bar">
-        <a href="/lu/" title="Luxemburgish">🇱🇺 LU</a> |
-        <a href="/de/" title="Deutsch">🇩🇪 DE</a> |
-        <a href="/fr/" title="Français">🇫🇷 FR</a> |
-        <a href="/en/" title="English">🇬🇧 EN</a>
-      </div>
-    </div>
-    <h1>{{ page.header | default: "Praxis fir Psychotherapie Schwebsange" }}</h1>
-    <div class="title-divider"></div>
-  </header>
+<header class="site-header">
+  <div class="header-inner">
 
-  <!-- Content -->
-  <main>
-    {{ content }}
-  </main>
+    <a class="brand" href="/{{ page.lang }}/">
+      <span class="brand-name">Praxis fir Psychotherapie</span>
+      <span class="brand-location">Schwebsange</span>
+    </a>
+
+    <nav class="language-bar" aria-label="Sprachauswahl">
+      <a href="/lu/">LU</a>
+      <a href="/de/">DE</a>
+      <a href="/fr/">FR</a>
+      <a href="/en/">EN</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+  {{ content }}
+</main>
 
 <footer class="site-footer">
-  <a href="/{{ page.lang }}/impressum/">Impressum</a>
-  <span> | </span>
-  <a href="/{{ page.lang }}/datenschutz/">Datenschutz</a>
-</footer>
+  <div class="footer-inner">
 
+    <div class="footer-brand">
+      <strong>Praxis fir Psychotherapie</strong>
+      <span>Schwebsange</span>
+    </div>
+
+    <div class="footer-links">
+      <a href="/{{ page.lang }}/impressum/">Impressum</a>
+      <span>|</span>
+      <a href="/{{ page.lang }}/datenschutz/">Datenschutz</a>
+    </div>
+
+  </div>
+</footer>
 
 </body>
 </html>
-
-
