@@ -3,6 +3,7 @@
 layout: default
 title: Praxis fir Psychotherapie Schwebsange
 permalink: /de/
+lang: de
 ---
 
 <!-- WILLKOMMENSBEREICH -->
