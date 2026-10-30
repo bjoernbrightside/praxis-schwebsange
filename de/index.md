@@ -96,11 +96,11 @@ Weitere Informationen finden Sie hier:
 <div class="person">
   <div class="person-details">
     <h3>Claude REUTER</h3>
-    <p class="availability">Verfügbarkeiten: Freitag, Samstag Vormittag</p>
-    <p class="languages">Sprachen: Luxemburgisch, Deutsch, Französisch</p>
+    <p>Verfügbarkeit: Freitag, Samstagvormittag</p>
+    <p>Sprachen: Luxemburgisch, Deutsch, Französisch</p>
   </div>
   <div class="person-email">
-    E-Mail: Noch offen – Rückmeldung ausstehend
+    <!-- E-Mail-Adresse später hier ergänzen -->
   </div>
 </div>
 
