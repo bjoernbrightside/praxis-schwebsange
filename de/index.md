@@ -136,9 +136,3 @@ lang: de
     </div>
   </div>
 </section>
-
-        title="Standort der Praxis fir Psychotherapie Schwebsange">
-      </iframe>
-    </div>
-  </div>
-</section>
