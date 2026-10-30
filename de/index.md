@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Praxis fir Psychotherapie Schwebsange
@@ -11,6 +10,7 @@ lang: de
 <div class="welcome-hero">
   <h1>Willkommen auf der Website der Praxis fir Psychotherapie Schwebsange</h1>
 </div>
+
 
 <!-- ANGEBOTSÜBERSICHT -->
 
@@ -39,6 +39,7 @@ lang: de
       <span class="offer-arrow">→</span>
     </a>
 
+
     <a href="#systemisches-coaching" class="offer-card">
       <span class="offer-card-content">
 
@@ -60,12 +61,14 @@ lang: de
   </div>
 </div>
 
+
 <!-- KONTAKTHINWEIS -->
 
 <div class="contact-note-top">
   Kontaktieren Sie uns gerne per E-Mail.
   Wir antworten so schnell wie möglich.
 </div>
+
 
 <!-- 1. PSYCHOTHERAPIE -->
 
@@ -87,6 +90,7 @@ lang: de
 
   </div>
 
+
   <div class="person">
 
     <div class="person-details">
@@ -101,6 +105,7 @@ lang: de
 
   </div>
 
+
   <div class="person">
 
     <div class="person-details">
@@ -113,6 +118,7 @@ lang: de
     </div>
 
   </div>
+
 
   <!-- KOSTEN UND ERSTATTUNG -->
 
@@ -134,6 +140,7 @@ lang: de
   </div>
 
 </section>
+
 
 <!-- 2. SYSTEMISCHES COACHING -->
 
@@ -162,33 +169,63 @@ lang: de
 
 </section>
 
-<!-- ADRESSE UND ANFAHRT -->
+
+<!-- ADRESSE UND ANFAHRT MIT GOOGLE MAPS -->
 
 <div class="address-section">
 
-  <div class="address-box">
+  <div class="address-map-layout">
 
-    <h2 class="section-heading">
+    <div class="address-box">
 
-      <span class="section-icon">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>
-          <circle cx="12" cy="10" r="2.5"/>
-        </svg>
-      </span>
+      <h2 class="section-heading">
 
-      Adresse &amp; Anfahrt
+        <span class="section-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>
+            <circle cx="12" cy="10" r="2.5"/>
+          </svg>
+        </span>
 
-    </h2>
+        Adresse &amp; Anfahrt
 
-    <p><strong>Praxis fir Psychotherapie</strong></p>
-    <p>53, Route du Vin</p>
-    <p>L-5447 Schwebsange</p>
+      </h2>
 
-    <p>
-      Unsere Praxis befindet sich im Erdgeschoss
-      und ist barrierefrei zugänglich.
-    </p>
+      <p><strong>Praxis fir Psychotherapie</strong></p>
+      <p>53, Route du Vin</p>
+      <p>L-5447 Schwebsange</p>
+
+      <p>
+        Unsere Praxis befindet sich im Erdgeschoss
+        und ist barrierefrei zugänglich.
+      </p>
+
+      <p class="map-link">
+        <a
+          href="https://www.google.de/maps/place/Praxis+fir+Psychotherapie+Schwebsange/@49.5115327,6.3542719,17z/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Route in Google Maps öffnen →
+        </a>
+      </p>
+
+    </div>
+
+
+    <div class="map-box">
+
+      <iframe
+        src="https://www.google.com/maps?q=49.5115292,6.3568468&z=17&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Google Maps – Praxis fir Psychotherapie Schwebsange">
+      </iframe>
+
+    </div>
 
   </div>
 
