@@ -1,14 +1,15 @@
-
 /* =========================================
-   GRUNDDESIGN
+   1. FARBEN UND GRUNDLAGEN
 ========================================= */
 
 :root {
   --green-dark: #315B53;
   --green-medium: #6B8E80;
   --green-light: #E9EEE8;
+
   --background: #F7F6F1;
   --white: #FFFFFF;
+
   --text: #38433F;
   --muted: #718078;
   --border: #DCE3DC;
@@ -23,31 +24,42 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 30px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background: var(--background);
-  color: var(--text);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--background);
 }
 
+a {
+  color: var(--green-dark);
+}
+
+img {
+  max-width: 100%;
+}
+
+
 /* =========================================
-   HEADER
+   2. HEADER
 ========================================= */
 
 .site-header {
-  background: var(--background);
-  padding: 22px 5%;
+  width: 100%;
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
 }
 
 .header-inner {
-  max-width: 1120px;
-  margin: auto;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 18px 30px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,18 +71,19 @@ body {
   flex-direction: column;
   text-decoration: none;
   color: var(--green-dark);
-  line-height: 1.3;
+  line-height: 1.25;
 }
 
 .brand-name {
-  font-family: Georgia, serif;
-  font-size: 25px;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 .brand-location {
-  font-size: 13px;
-  letter-spacing: 2px;
+  font-size: 14px;
   color: var(--muted);
+  letter-spacing: 1.5px;
 }
 
 .language-bar {
@@ -83,93 +96,94 @@ body {
   color: var(--green-dark);
   text-decoration: none;
   font-size: 13px;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 
 .language-bar a:hover {
-  color: var(--green-medium);
   text-decoration: underline;
 }
 
+
 /* =========================================
-   HAUPTINHALT
+   3. HAUPTBEREICH
 ========================================= */
 
 main {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 30px 60px;
 }
 
-h1, h2, h3 {
-  color: var(--green-dark);
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: normal;
-  line-height: 1.3;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 23px;
-}
-
-p {
-  margin: 0 0 18px;
-}
 
 /* =========================================
-   WILLKOMMENSBEREICH MIT HINTERGRUNDBILD
+   4. WILLKOMMENSBEREICH / HERO-BILD
 ========================================= */
 
 .welcome-hero {
+  position: relative;
+
   width: 100vw;
+  min-height: 390px;
+
   margin-left: calc(50% - 50vw);
-  padding: 95px 20px;
+  margin-bottom: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px 30px;
 
   background-image:
     linear-gradient(
-      rgba(247, 246, 241, 0.35),
-      rgba(247, 246, 241, 0.48)
+      rgba(25, 45, 39, 0.35),
+      rgba(25, 45, 39, 0.35)
     ),
     url("../images/hero-schwebsange.png");
 
   background-size: cover;
-  background-position: center 55%;
+  background-position: center 52%;
   background-repeat: no-repeat;
-
-  text-align: center;
 }
 
 .welcome-hero h1 {
-  max-width: 950px;
-  margin: 0 auto;
-  font-size: clamp(30px, 4vw, 46px);
-  color: var(--green-dark);
+  max-width: 850px;
+  margin: 0;
+
+  color: var(--white);
+  font-size: clamp(28px, 4vw, 43px);
+  line-height: 1.25;
+  font-weight: 600;
+  text-align: center;
+
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
+
 /* =========================================
-   ANGEBOTSÜBERSICHT
+   5. ANGEBOTSÜBERSICHT
 ========================================= */
 
 .offer-intro {
+  margin: 0 auto 30px;
   text-align: center;
-  padding: 45px 20px 35px;
 }
 
 .offer-intro h2 {
   margin: 0 0 30px;
-  font-size: 34px;
+  color: var(--green-dark);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 .offer-links {
-  max-width: 650px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 18px;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 .offer-card {
@@ -177,20 +191,28 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 22px 30px;
-  border: 1px solid #B9C9C0;
-  border-radius: 8px;
-  color: var(--green-dark);
-  background: rgba(255,255,255,0.55);
+
+  padding: 25px 30px;
+
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  color: var(--text);
   text-decoration: none;
-  transition: all 0.25s ease;
+
+  box-shadow: 0 3px 12px rgba(30, 50, 40, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .offer-card:hover {
-  background: var(--white);
+  transform: translateY(-3px);
   border-color: var(--green-medium);
-  transform: translateY(-2px);
-  text-decoration: none;
+  box-shadow: 0 7px 20px rgba(30, 50, 40, 0.10);
 }
 
 .offer-card-content {
@@ -198,11 +220,38 @@ p {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  gap: 4px;
+}
+
+/* Icons nur in den beiden Angebotskarten */
+
+.offer-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 38px;
+  height: 38px;
+  margin-bottom: 5px;
+
+  color: var(--green-dark);
+}
+
+.offer-card-icon svg {
+  width: 23px;
+  height: 23px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .offer-card-title {
-  font-family: Georgia, serif;
-  font-size: 24px;
+  color: var(--green-dark);
+  font-size: 21px;
+  font-weight: 700;
 }
 
 .offer-card-subtitle {
@@ -211,159 +260,86 @@ p {
 }
 
 .offer-arrow {
-  font-size: 26px;
+  flex-shrink: 0;
   color: var(--green-dark);
+  font-size: 27px;
 }
+
 
 /* =========================================
-   ANGEBOTSKARTEN-ICONS
-========================================= */
-
-.offer-card-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  margin-bottom: 4px;
-  color: var(--green-dark);
-}
-
-.offer-card-icon svg {
-  display: block;
-  width: 21px;
-  height: 21px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-/* =========================================
-   KONTAKTHINWEIS OBEN
+   6. KONTAKTHINWEIS OBEN
 ========================================= */
 
 .contact-note-top {
+  margin: 30px auto 45px;
   text-align: center;
   color: var(--muted);
-  padding: 0 20px 35px;
   font-size: 15px;
 }
 
+
 /* =========================================
-   ANGEBOTSBEREICHE
+   7. INHALTSBEREICHE
 ========================================= */
 
 .content-section {
-  padding: 55px 0;
-  border-top: 1px solid var(--border);
+  margin: 0 0 35px;
+  padding: 35px;
+
+  border-radius: 9px;
   scroll-margin-top: 25px;
 }
-
-/* Psychotherapie – warmes Sandbeige */
 
 #psychotherapie {
   background: var(--psychotherapy-bg);
-  padding: 55px 35px;
-  margin: 0 -35px;
-  border-radius: 8px;
-  scroll-margin-top: 25px;
 }
-
-/* Systemisches Coaching – dezentes Blau-Grau */
 
 #systemisches-coaching {
   background: var(--coaching-bg);
-  padding: 55px 35px;
-  margin: 0 -35px;
-  border-radius: 8px;
-  scroll-margin-top: 25px;
-}
-
-.content-section > h2 {
-  font-size: 34px;
-  margin: 0 0 35px;
 }
 
 .content-section-title {
+  margin: 0 0 30px;
   text-align: center;
-  margin: 0 0 35px;
-}
-
-/* =========================================
-   ADRESS-ICON
-========================================= */
-
-.section-heading {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.section-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 38px;
-  width: 38px;
-  height: 38px;
   color: var(--green-dark);
-  background: rgba(255, 255, 255, 0.55);
-  border-radius: 50%;
+  font-size: 27px;
+  font-weight: 600;
 }
 
-.section-icon svg {
-  width: 21px;
-  height: 21px;
-  display: block;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 1.7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
 
 /* =========================================
-   PERSONEN
+   8. PERSONEN UND KONTAKTDATEN
 ========================================= */
 
 .person {
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: flex;
   align-items: center;
-  gap: 30px;
-  padding: 25px 0;
-  border-bottom: 1px solid var(--border);
+  justify-content: space-between;
+  gap: 25px;
+
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(80, 100, 90, 0.18);
 }
 
-.person:first-of-type {
-  padding-top: 0;
+.person:last-of-type {
+  border-bottom: none;
+}
+
+.person-details {
+  flex: 1;
+  min-width: 0;
 }
 
 .person-details h3 {
-  font-size: 23px;
-  margin: 0 0 8px;
+  margin: 0 0 5px;
+  color: var(--green-dark);
+  font-size: 19px;
+  font-weight: 700;
 }
 
 .person-details p {
   margin: 3px 0;
-}
-
-.person-email {
-  text-align: right;
-  color: var(--green-dark);
   font-size: 15px;
-  overflow-wrap: anywhere;
-}
-
-.person-email a {
-  color: var(--green-dark);
-  text-decoration: none;
-}
-
-.person-email a:hover {
-  text-decoration: underline;
 }
 
 .availability {
@@ -374,83 +350,189 @@ p {
   color: var(--muted);
 }
 
-.notice {
-  color: var(--green-dark);
-  font-weight: 600;
+.person-email {
+  flex-shrink: 0;
+  text-align: right;
   font-size: 14px;
-  margin-bottom: 8px !important;
 }
 
+.person-email a {
+  color: var(--green-dark);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.person-email a:hover {
+  text-decoration: underline;
+}
+
+.notice {
+  display: inline-block;
+  margin: 0 0 7px !important;
+  color: #8B5E43;
+  font-size: 14px !important;
+  font-weight: 600;
+}
+
+
 /* =========================================
-   KOSTENBOX – VOLLE BREITE
+   9. KOSTEN UND CNS-ERSTATTUNG
 ========================================= */
 
 .cost-box {
-  background: var(--green-light);
-  padding: 28px 35px;
-  border-radius: 8px;
   margin: 30px -35px 0;
-  width: auto;
+  padding: 28px 35px;
+
+  background: var(--green-light);
+  border-radius: 8px;
 }
 
 .cost-box h3 {
-  margin-bottom: 12px;
+  margin: 0 0 10px;
+  color: var(--green-dark);
+  font-size: 19px;
 }
 
-.cost-box p:last-child {
-  margin-bottom: 0;
+.cost-box p {
+  margin: 0;
+  font-size: 15px;
 }
 
 .cost-box a {
   color: var(--green-dark);
+  font-weight: 600;
+  text-decoration: underline;
 }
 
+
 /* =========================================
-   COACHING-KONTAKTHINWEIS
+   10. KONTAKTHINWEIS COACHING
 ========================================= */
 
 .contact-note {
-  margin: 25px 0 0;
+  margin: 20px 0 0;
   color: var(--muted);
+  font-size: 15px;
 }
 
+
 /* =========================================
-   ADRESSE
+   11. ADRESSE UND GOOGLE MAPS
 ========================================= */
 
 .address-section {
-  padding: 55px 0;
+  margin: 45px 0 20px;
+}
+
+.address-map-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr;
+  gap: 25px;
+  align-items: stretch;
 }
 
 .address-box {
+  width: 100%;
+  max-width: none;
+  padding: 30px;
+
   background: var(--white);
   border-radius: 8px;
-  padding: 30px;
-  max-width: 600px;
 }
 
-.address-box h2 {
-  margin-top: 0;
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  margin: 0 0 25px;
+
+  color: var(--green-dark);
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Standort-Icon */
+
+.section-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 26px;
+  height: 26px;
+
+  color: var(--green-dark);
+}
+
+.section-icon svg {
+  width: 23px;
+  height: 23px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .address-box p {
-  margin-bottom: 5px;
+  margin: 8px 0;
+  font-size: 15px;
 }
 
+.address-box strong {
+  color: var(--green-dark);
+}
+
+.map-link {
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+}
+
+.map-link a {
+  color: var(--green-dark);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Google-Maps-Karte */
+
+.map-box {
+  min-height: 300px;
+  overflow: hidden;
+
+  background: var(--white);
+  border-radius: 8px;
+}
+
+.map-box iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  border: 0;
+}
+
+
 /* =========================================
-   FOOTER
+   12. FOOTER
 ========================================= */
 
 .site-footer {
-  margin-top: 40px;
-  padding: 35px 5%;
-  background: var(--green-dark);
-  color: var(--white);
+  width: 100%;
+  background: var(--white);
+  border-top: 1px solid var(--border);
 }
 
 .footer-inner {
-  max-width: 1120px;
-  margin: auto;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 25px 30px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -460,29 +542,31 @@ p {
 .footer-brand {
   display: flex;
   flex-direction: column;
+  line-height: 1.35;
 }
 
 .footer-brand strong {
-  font-family: Georgia, serif;
-  font-size: 20px;
-  font-weight: normal;
+  color: var(--green-dark);
+  font-size: 15px;
 }
 
 .footer-brand span {
+  color: var(--muted);
   font-size: 13px;
   letter-spacing: 1px;
-  color: #D5E0DA;
 }
 
 .footer-links {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
+
+  color: var(--muted);
   font-size: 13px;
 }
 
 .footer-links a {
-  color: var(--white);
+  color: var(--green-dark);
   text-decoration: none;
 }
 
@@ -490,48 +574,52 @@ p {
   text-decoration: underline;
 }
 
+
 /* =========================================
-   MOBILE
+   13. TABLET UND MOBILE
 ========================================= */
 
 @media (max-width: 700px) {
 
-  .site-header {
-    padding: 18px 20px;
-  }
+  /* Header */
 
   .header-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    gap: 12px;
   }
 
   .brand-name {
-    font-size: 22px;
+    font-size: 17px;
   }
 
   .language-bar {
-    gap: 22px;
+    gap: 12px;
   }
+
+  /* Hauptbereich */
 
   main {
-    padding: 0 20px;
+    padding: 0 20px 40px;
   }
 
+  /* Hero */
+
   .welcome-hero {
-    padding: 75px 20px;
+    min-height: 300px;
+    margin-bottom: 40px;
+    padding: 35px 22px;
+    background-position: center;
   }
 
   .welcome-hero h1 {
-    font-size: 30px;
+    font-size: 29px;
   }
 
-  .offer-intro {
-    padding: 38px 0 30px;
-  }
+  /* Angebotsübersicht */
 
   .offer-intro h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .offer-card {
@@ -539,87 +627,103 @@ p {
   }
 
   .offer-card-title {
-    font-size: 21px;
+    font-size: 19px;
   }
 
-  .offer-card-icon {
-    width: 34px;
-    height: 34px;
-  }
-
-  .offer-card-icon svg {
-    width: 21px;
-    height: 21px;
-  }
-
-  .contact-note-top {
-    padding: 0 5px 30px;
+  .offer-card-subtitle {
     font-size: 14px;
   }
 
+  /* Inhaltsbereiche */
+
   .content-section {
-    padding: 40px 0;
+    padding: 25px 20px;
+    margin-bottom: 25px;
   }
 
-  #psychotherapie {
-    padding: 40px 20px;
-    margin: 0 -20px;
+  .content-section-title {
+    font-size: 24px;
   }
 
-  #systemisches-coaching {
-    padding: 40px 20px;
-    margin: 0 -20px;
-  }
-
-  .content-section > h2 {
-    font-size: 29px;
-  }
-
-  .section-heading {
-    gap: 10px;
-  }
-
-  .section-icon {
-    flex-basis: 34px;
-    width: 34px;
-    height: 34px;
-  }
-
-  .section-icon svg {
-    width: 19px;
-    height: 19px;
-  }
+  /* Personen */
 
   .person {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
-    padding: 22px 0;
+    padding: 18px 0;
   }
 
   .person-email {
     text-align: left;
-    margin-top: 5px;
+    font-size: 14px;
   }
 
-  .person-details h3 {
-    font-size: 21px;
-  }
+  /* Kostenbox */
 
   .cost-box {
-    margin: 30px -20px 0;
+    margin: 25px -20px 0;
     padding: 25px 20px;
   }
 
-  .address-section {
-    padding: 40px 0;
+  /* Adresse und Karte */
+
+  .address-map-layout {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 
   .address-box {
     padding: 25px 20px;
   }
 
+  .map-box,
+  .map-box iframe {
+    min-height: 280px;
+  }
+
+  /* Footer */
+
   .footer-inner {
+    padding: 22px 20px;
     flex-direction: column;
     align-items: flex-start;
+    gap: 15px;
+  }
+}
+
+
+/* =========================================
+   14. KLEINE SMARTPHONES
+========================================= */
+
+@media (max-width: 400px) {
+
+  .brand-name {
+    font-size: 15px;
+  }
+
+  .language-bar {
+    gap: 9px;
+  }
+
+  .language-bar a {
+    font-size: 12px;
+  }
+
+  .welcome-hero h1 {
+    font-size: 25px;
+  }
+
+  .offer-card {
+    padding: 17px;
+  }
+
+  .content-section-title {
+    font-size: 22px;
+  }
+
+  .section-heading {
+    font-size: 21px;
   }
 }
