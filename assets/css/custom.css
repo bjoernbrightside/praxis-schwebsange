@@ -134,7 +134,7 @@ p {
       rgba(247, 246, 241, 0.35),
       rgba(247, 246, 241, 0.48)
     ),
-    url("/assets/images/hero-schwebsange.png");
+    url("../images/hero-schwebsange.png");
 
   background-size: cover;
   background-position: center 55%;
@@ -216,7 +216,7 @@ p {
 }
 
 /* =========================================
-   ICONS IN DEN ANGEBOTSKÄSTCHEN
+   ANGEBOTSKARTEN-ICONS
 ========================================= */
 
 .offer-card-icon {
@@ -286,15 +286,13 @@ p {
   margin: 0 0 35px;
 }
 
-/* Zentrierte Abschnittsüberschriften */
-
 .content-section-title {
   text-align: center;
   margin: 0 0 35px;
 }
 
 /* =========================================
-   ICON FÜR ADRESSE UND ANFAHRT
+   ADRESS-ICON
 ========================================= */
 
 .section-heading {
@@ -384,14 +382,15 @@ p {
 }
 
 /* =========================================
-   KOSTENBOX
+   KOSTENBOX – VOLLE BREITE
 ========================================= */
 
 .cost-box {
   background: var(--green-light);
-  padding: 28px 30px;
+  padding: 28px 35px;
   border-radius: 8px;
-  margin-top: 30px;
+  margin: 30px -35px 0;
+  width: auto;
 }
 
 .cost-box h3 {
@@ -604,6 +603,11 @@ p {
 
   .person-details h3 {
     font-size: 21px;
+  }
+
+  .cost-box {
+    margin: 30px -20px 0;
+    padding: 25px 20px;
   }
 
   .address-section {
