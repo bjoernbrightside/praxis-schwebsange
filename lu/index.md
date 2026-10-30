@@ -121,7 +121,7 @@ lang: lu
   </h2>
   <div class="address-map-layout">
     <div class="address-box">
-      <h3>Praxis fir Psychotherapie</h3>
+      <h3>Praxis fir Psychotherapie Schwebsange</h3>
       <p>53, Route du Vin<br>L-5447 Schwebsange</p>
       <p>Eis Praxis läit um Rez-de-chaussée an ass barrièrefräi zougänglech.</p>
       <p>
