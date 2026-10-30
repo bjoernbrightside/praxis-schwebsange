@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Praxis fir Psychotherapie Schwebsange
@@ -8,7 +9,10 @@ lang: de
 <!-- WILLKOMMENSBEREICH -->
 
 <div class="welcome-hero">
-  <h1>Willkommen auf der Website der Praxis fir Psychotherapie Schwebsange</h1>
+  <div class="welcome-hero-text">
+    <h1>Willkommen auf der Website</h1>
+    <p class="hero-subtitle">Praxis fir Psychotherapie Schwebsange</p>
+  </div>
 </div>
 
 
@@ -70,18 +74,18 @@ lang: de
 </div>
 
 
-<!-- 1. PSYCHOTHERAPIE -->
+<!-- PSYCHOTHERAPIE -->
 
 <section id="psychotherapie" class="content-section">
 
-  <h2 class="content-section-title">1. Psychotherapie</h2>
+  <h2 class="content-section-title">Psychotherapie</h2>
 
   <div class="person">
 
     <div class="person-details">
       <h3>Dr. Björn NICOLAY</h3>
       <p class="availability">Verfügbarkeit: Montag bis Freitag</p>
-      <p class="languages">Sprachen: Deutsch, Luxemburgisch, Englisch, Französisch</p>
+      <p class="languages">Sprachen: Luxemburgisch, Deutsch, Englisch, Französisch</p>
     </div>
 
     <div class="person-email">
@@ -95,7 +99,7 @@ lang: de
 
     <div class="person-details">
       <h3>Nina KOPP</h3>
-      <p class="availability">Verfügbarkeit ab 01.01.2027: Montag, Dienstag, Donnerstag</p>
+      <p class="availability">Verfügbarkeit: Montag, Dienstag, Donnerstag</p>
       <p class="languages">Sprachen: Deutsch, Englisch, Ukrainisch, Russisch</p>
     </div>
 
@@ -111,6 +115,7 @@ lang: de
     <div class="person-details">
       <p class="notice">Aktuell keine neuen Patient:innen</p>
       <h3>Dr. Djenna HUTMACHER</h3>
+      <p class="languages">Sprachen: Luxemburgisch, Deutsch, Englisch, Französisch</p>
     </div>
 
     <div class="person-email">
@@ -142,11 +147,11 @@ lang: de
 </section>
 
 
-<!-- 2. SYSTEMISCHES COACHING -->
+<!-- SYSTEMISCHES COACHING -->
 
 <section id="systemisches-coaching" class="content-section">
 
-  <h2 class="content-section-title">2. Systemisches Coaching</h2>
+  <h2 class="content-section-title">Systemisches Coaching</h2>
 
   <div class="person">
 
@@ -161,11 +166,6 @@ lang: de
     </div>
 
   </div>
-
-  <p class="contact-note">
-    Kontaktieren Sie mich gerne per E-Mail.
-    Ich antworte so schnell wie möglich.
-  </p>
 
 </section>
 
@@ -202,7 +202,7 @@ lang: de
 
       <p class="map-link">
         <a
-          href="https://www.google.de/maps/place/Praxis+fir+Psychotherapie+Schwebsange/@49.5115327,6.3542719,17z/data=!4m14!1m7!3m6!1s0x66d8ca1864240441:0x9f0f371f6b3d7ea0!2sPraxis+fir+Psychotherapie+Schwebsange!8m2!3d49.5115292!4d6.3568468!16s%2Fg%2F11yt7fzy3l!3m5!1s0x66d8ca1864240441:0x9f0f371f6b3d7ea0!8m2!3d49.5115292!4d6.3568468!16s%2Fg%2F11yt7fzy3l"
+          href="https://www.google.de/maps/place/Praxis+fir+Psychotherapie+Schwebsange/@49.5115327,6.3542719,17z/data=!4m14!1m7!3m6!1s0x66d8ca1864240441:0x9f0f371f6b3d7ea0!2sPraxis+fir+Psychotherapie+Schwebsange!8m2!3d49.5115292!4d6.3568468!16s%2Fg%2F11yt7fzy3l!3m5!1m2!1s0x66d8ca1864240441:0x9f0f371f6b3d7ea0!2sPraxis+fir+Psychotherapie+Schwebsange"
           target="_blank"
           rel="noopener noreferrer">
           Praxis auf Google Maps öffnen →
@@ -215,7 +215,7 @@ lang: de
     <div class="map-box">
 
       <iframe
-        src="https://www.google.com/maps?q=Praxis+fir+Psychotherapie+Schwebsange&output=embed"
+        src="https://www.google.com/maps?q=49.5115292,6.3568468&z=17&output=embed"
         width="100%"
         height="100%"
         style="border:0;"
@@ -230,3 +230,4 @@ lang: de
   </div>
 
 </div>
+
