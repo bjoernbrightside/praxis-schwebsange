@@ -130,7 +130,7 @@ main > h1:first-child {
       rgba(247, 246, 241, 0.35),
       rgba(247, 246, 241, 0.48)
     ),
-    url("/assets/images/hero-schwebsange.jpg");
+    url("/assets/images/hero-schwebsange.png");
 
   background-size: cover;
   background-position: center 55%;
