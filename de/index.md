@@ -108,7 +108,7 @@ lang: de
     <a href="mailto:info@r-coaching.lu">info@r-coaching.lu</a>
   </div>
 </div>
-```
+
   </div>
   <p class="coaching-note">
     Systemisches Coaching ist ein eigenständiges Angebot und wird nicht durch die CNS erstattet.
