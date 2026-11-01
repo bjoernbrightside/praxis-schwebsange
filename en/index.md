@@ -97,14 +97,17 @@ lang: en
 <section id="systemic-coaching" class="content-section coaching-section">
   <h2>Systemic Coaching</h2>
   <div class="person-list">
-    <div class="person">
-      <div class="person-info">
-        <h3>Claude REUTER</h3>
-        <p><strong>Availability:</strong> Friday and Saturday morning</p>
-        <p><strong>Languages:</strong> Luxembourgish, German, French</p>
-      </div>
-      <div class="person-contact"></div>
-    </div>
+<div class="person">
+  <div class="person-info">
+    <h3>Claude REUTER</h3>
+    <p><strong>Verfügbarkeit:</strong> Freitag und Samstagvormittag</p>
+    <p><strong>Sprachen:</strong> Luxemburgisch, Deutsch, Französisch</p>
+    <p><strong>Website:</strong> <a href="https://www.r-coaching.lu" target="_blank" rel="noopener">www.r-coaching.lu</a></p>
+  </div>
+  <div class="person-contact">
+    <a href="mailto:info@r-coaching.lu">info@r-coaching.lu</a>
+  </div>
+</div>
   </div>
   <p class="coaching-note">
     Systemic Coaching is an independent service and is not reimbursed by the CNS.
