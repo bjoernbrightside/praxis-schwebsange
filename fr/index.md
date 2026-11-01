@@ -100,8 +100,8 @@ lang: fr
 <div class="person">
   <div class="person-info">
     <h3>Claude REUTER</h3>
-    <p><strong>Verfügbarkeit:</strong> Freitag und Samstagvormittag</p>
-    <p><strong>Sprachen:</strong> Luxemburgisch, Deutsch, Französisch</p>
+    <p><strong>Disponibilités :</strong> vendredi et samedi matin</p>
+<p><strong>Langues :</strong> luxembourgeois, allemand, français</p>
     <p><strong>Site web:</strong> <a href="https://www.r-coaching.lu" target="_blank" rel="noopener">www.r-coaching.lu</a></p>
   </div>
   <div class="person-contact">
