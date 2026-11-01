@@ -102,7 +102,7 @@ lang: fr
     <h3>Claude REUTER</h3>
     <p><strong>Disponibilités :</strong> vendredi et samedi matin</p>
 <p><strong>Langues :</strong> luxembourgeois, allemand, français</p>
-    <p><strong>Site web:</strong> <a href="https://www.r-coaching.lu" target="_blank" rel="noopener">www.r-coaching.lu</a></p>
+    <p><strong>Site web :</strong> <a href="https://www.r-coaching.lu" target="_blank" rel="noopener">www.r-coaching.lu</a></p>
   </div>
   <div class="person-contact">
     <a href="mailto:info@r-coaching.lu">info@r-coaching.lu</a>
